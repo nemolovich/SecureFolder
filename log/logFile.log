@@ -1,0 +1,600 @@
+[23/02/2014 12:20:18] | *** LOGGER STARTED ***
+[23/02/2014 12:20:18] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:20:18] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:20:18] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:20:18] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: Can not secure the folder ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:20:18] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[23/02/2014 12:20:18] | *** LOGGER CLOSED ***
+[23/02/2014 12:20:43] | *** LOGGER STARTED ***
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:20:43] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:20:43] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The destination file already exists
+[23/02/2014 12:20:43] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[23/02/2014 12:20:43] | *** LOGGER CLOSED ***
+[23/02/2014 12:21:44] | *** LOGGER STARTED ***
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:21:44] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:21:44] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:21:44] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[23/02/2014 12:21:44] | *** LOGGER CLOSED ***
+[23/02/2014 12:23:50] | *** LOGGER STARTED ***
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:23:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:23:50] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:23:50] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[23/02/2014 12:23:50] | *** LOGGER CLOSED ***
+[23/02/2014 12:24:44] | *** LOGGER STARTED ***
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:24:44] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:24:44] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:24:44] | *** LOGGER CLOSED ***
+[23/02/2014 12:25:15] | *** LOGGER STARTED ***
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:25:15] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:25:15] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:25:15] | *** LOGGER CLOSED ***
+[23/02/2014 12:26:33] | *** LOGGER STARTED ***
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:26:33] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:26:33] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:26:33] | *** LOGGER CLOSED ***
+[23/02/2014 12:29:30] | *** LOGGER STARTED ***
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:29:30] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:29:30] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip
+[23/02/2014 12:29:30] | *** LOGGER CLOSED ***
+[23/02/2014 12:30:39] | *** LOGGER STARTED ***
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:30:39] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:30:39] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip
+[23/02/2014 12:30:39] | *** LOGGER CLOSED ***
+[23/02/2014 12:32:21] | *** LOGGER STARTED ***
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:32:21] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:32:21] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:32:21] | *** LOGGER CLOSED ***
+[23/02/2014 12:33:01] | *** LOGGER STARTED ***
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:33:01] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:33:01] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:33:01] | *** LOGGER CLOSED ***
+[23/02/2014 12:33:52] | *** LOGGER STARTED ***
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:33:52] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:33:52] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:33:52] | *** LOGGER CLOSED ***
+[23/02/2014 12:34:26] | *** LOGGER STARTED ***
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:34:26] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:34:26] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:34:26] | *** LOGGER CLOSED ***
+[23/02/2014 12:35:03] | *** LOGGER STARTED ***
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:35:03] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:35:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:35:03] | *** LOGGER CLOSED ***
+[23/02/2014 12:35:29] | *** LOGGER STARTED ***
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:35:29] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:35:29] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:35:29] | *** LOGGER CLOSED ***
+[23/02/2014 12:36:08] | *** LOGGER STARTED ***
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:36:08] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The destination file already exists
+[23/02/2014 12:36:08] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:36:08] | *** LOGGER CLOSED ***
+[23/02/2014 12:36:19] | *** LOGGER STARTED ***
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:36:19] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:36:19] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:36:19] | *** LOGGER CLOSED ***
+[23/02/2014 12:36:50] | *** LOGGER STARTED ***
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:36:50] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The destination file already exists
+[23/02/2014 12:36:50] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:36:50] | *** LOGGER CLOSED ***
+[23/02/2014 12:37:03] | *** LOGGER STARTED ***
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:37:03] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:37:03] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:37:03] | *** LOGGER CLOSED ***
+[23/02/2014 12:37:32] | *** LOGGER STARTED ***
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:37:32] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:37:32] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:37:33] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:37:33] | *** LOGGER CLOSED ***
+[23/02/2014 12:38:14] | *** LOGGER STARTED ***
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:38:14] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The destination file already exists
+[23/02/2014 12:38:14] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:38:14] | *** LOGGER CLOSED ***
+[23/02/2014 12:38:24] | *** LOGGER STARTED ***
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:38:24] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:38:24] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:38:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:38:25] | *** LOGGER CLOSED ***
+[23/02/2014 12:40:25] | *** LOGGER STARTED ***
+[23/02/2014 12:40:25] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'notExist'
+[23/02/2014 12:40:25] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command 'notExist' can not be executed
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'ls -la'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'ls -la'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'ls -la' returned: total 64
+drwxrwxr-x  9 nemo nemo 4096 févr. 22 20:30 .
+drwx------ 14 nemo nemo 4096 févr. 22 12:17 ..
+drwxrwxr-x  2 nemo nemo 4096 févr. 22 12:21 bin
+-rw-rw-r--  1 nemo nemo 1154 févr. 22 20:29 .classpath
+drwxrwxr-x  8 nemo nemo 4096 févr. 22 18:01 .git
+-rw-rw-r--  1 nemo nemo   58 févr. 22 12:25 .gitignore
+-rw-rw-r--  1 nemo nemo 7632 févr. 22 12:17 LICENSE
+drwxrwxr-x  2 nemo nemo 4096 févr. 22 20:12 log
+-rw-rw-r--  1 nemo nemo 1784 févr. 23 12:39 pom.xml
+-rw-rw-r--  1 nemo nemo  541 févr. 22 12:24 .project
+-rw-rw-r--  1 nemo nemo   59 févr. 22 12:17 README.md
+drwxrwxr-x  3 nemo nemo 4096 févr. 22 12:47 resources
+drwxrwxr-x  2 nemo nemo 4096 févr. 22 12:24 .settings
+drwxrwxr-x  4 nemo nemo 4096 févr. 22 17:45 src
+drwxrwxr-x  9 nemo nemo 4096 févr. 22 20:30 target
+
+[23/02/2014 12:40:25] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file '/home/nemo/Documents/Tests/fileTestNonExisting' does not exists
+[23/02/2014 12:40:25] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path '/home/nemo/Documents/TestsNonExisting' does not exists
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest' returned: 
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: unHideFile with parameters [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.unHideFile
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%.%2% %1%%2%
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest' returned: 
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:40:25] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The destination file already exists
+[23/02/2014 12:40:25] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:40:25] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[23/02/2014 12:40:25] | *** LOGGER CLOSED ***
+[23/02/2014 12:40:58] | *** LOGGER STARTED ***
+[23/02/2014 12:40:58] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'notExist'
+[23/02/2014 12:40:58] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command 'notExist' can not be executed
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'ls -la'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'ls -la'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'ls -la' returned: total 64
+drwxrwxr-x  9 nemo nemo 4096 févr. 23 12:40 .
+drwx------ 14 nemo nemo 4096 févr. 22 12:17 ..
+drwxrwxr-x  2 nemo nemo 4096 févr. 22 12:21 bin
+-rw-rw-r--  1 nemo nemo 1154 févr. 22 20:29 .classpath
+drwxrwxr-x  8 nemo nemo 4096 févr. 22 18:01 .git
+-rw-rw-r--  1 nemo nemo   58 févr. 22 12:25 .gitignore
+-rw-rw-r--  1 nemo nemo 7632 févr. 22 12:17 LICENSE
+drwxrwxr-x  2 nemo nemo 4096 févr. 22 20:12 log
+-rw-rw-r--  1 nemo nemo 1784 févr. 23 12:39 pom.xml
+-rw-rw-r--  1 nemo nemo  541 févr. 22 12:24 .project
+-rw-rw-r--  1 nemo nemo   59 févr. 22 12:17 README.md
+drwxrwxr-x  3 nemo nemo 4096 févr. 22 12:47 resources
+drwxrwxr-x  2 nemo nemo 4096 févr. 22 12:24 .settings
+drwxrwxr-x  4 nemo nemo 4096 févr. 22 17:45 src
+drwxrwxr-x  8 nemo nemo 4096 févr. 23 12:40 target
+
+[23/02/2014 12:40:58] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file '/home/nemo/Documents/Tests/fileTestNonExisting' does not exists
+[23/02/2014 12:40:58] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path '/home/nemo/Documents/TestsNonExisting' does not exists
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Operating System is: linux
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file to use: ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Properties file ['/home/nemo/git/SecureFolder/resources/batchs/linux.properties'] loaded
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/fileTest /home/nemo/Documents/Tests/.fileTest' returned: 
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: unHideFile with parameters [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.unHideFile
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%.%2% %1%%2%
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, fileTest]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/.fileTest /home/nemo/Documents/Tests/fileTest' returned: 
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Getting path content: ['/home/nemo/Documents/Tests/folderTest/subFolderTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [folderTest/subFileTest, folderTest/subFolderTest/subSubFileTest, folderTest/subFolderTest]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFileTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subSubFileTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['subFolderTest']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.file.FileUtils: Creating batch file command: hideFile with parameters [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Looking for command key: file.hideFile
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Command found: mv %1%%2% %1%.%2%
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Applying parameters: [/home/nemo/Documents/Tests/, folderTest.encrypted]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils: Final Command: mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Executing command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Waiting for result for command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted'
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchCommand: Command 'mv /home/nemo/Documents/Tests/folderTest.encrypted /home/nemo/Documents/Tests/.folderTest.encrypted' returned: 
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Start to zip files
+[23/02/2014 12:40:58] | [WARNING] fr.nemolovich.apps.securefolder.file.FileUtils: Path ['/home/nemo/Documents/Tests/.folderTest.encrypted'] is not a directory
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding files in zip [.folderTest.encrypted]
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Adding file: ['.folderTest.encrypted']
+[23/02/2014 12:40:58] | [INFO] fr.nemolovich.apps.securefolder.zip.ZipUtils: Removing temporary files
+[23/02/2014 12:40:58] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[23/02/2014 12:40:58] | *** LOGGER CLOSED ***
