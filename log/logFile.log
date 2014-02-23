@@ -1,0 +1,352 @@
+[24/02/2014 23:06:52] | *** LOGGER STARTED ***
+[24/02/2014 23:06:52] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[24/02/2014 23:06:52] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:06:52] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:06:52] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[24/02/2014 23:06:52] | *** LOGGER CLOSED ***
+[24/02/2014 23:07:18] | *** LOGGER STARTED ***
+[24/02/2014 23:07:18] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[24/02/2014 23:07:18] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:07:18] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:07:18] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[24/02/2014 23:07:18] | *** LOGGER CLOSED ***
+[24/02/2014 23:08:24] | *** LOGGER STARTED ***
+[24/02/2014 23:08:24] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[24/02/2014 23:08:24] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:08:24] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:08:24] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[24/02/2014 23:08:24] | *** LOGGER CLOSED ***
+[24/02/2014 23:08:49] | *** LOGGER STARTED ***
+[24/02/2014 23:08:49] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:08:49] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:08:49] | *** LOGGER CLOSED ***
+[24/02/2014 23:10:29] | *** LOGGER STARTED ***
+[24/02/2014 23:10:29] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[24/02/2014 23:10:29] | [INFO] Executing command 'notExist'
+[24/02/2014 23:10:29] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command 'notExist' can not be executed
+[24/02/2014 23:10:29] | [INFO] Executing command 'dir'
+[24/02/2014 23:10:29] | [INFO] Waiting for result for command 'dir'
+[24/02/2014 23:10:29] | [INFO] Command 'dir' returned: LICENSE  README.md  log  pom.xml  resources  src  target
+
+[24/02/2014 23:10:29] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:10:29] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:10:29] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:10:29] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:10:29] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:10:29] | [INFO] Operating System is: windows 7
+[24/02/2014 23:10:29] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[24/02/2014 23:10:29] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[24/02/2014 23:10:29] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:10:29] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:10:29] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:10:29] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:10:29] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile
+[24/02/2014 23:10:29] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:10:29] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:10:29] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile' returned: 
+[24/02/2014 23:10:29] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:10:29] | [INFO] Looking for command key: file.unHideFile
+[24/02/2014 23:10:29] | [INFO] Command found: attrib -s -h %1%%2%
+[24/02/2014 23:10:29] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:10:29] | [INFO] Final Command: attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile
+[24/02/2014 23:10:29] | [INFO] Executing command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:10:29] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:10:29] | [INFO] Command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile' returned: 
+[24/02/2014 23:10:29] | [INFO] Start to zip files
+[24/02/2014 23:10:29] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:10:29] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:10:29] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:10:29] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[24/02/2014 23:10:29] | [INFO] Adding file: ['fileTest']
+[24/02/2014 23:10:29] | [INFO] Adding file: ['subFileTest']
+[24/02/2014 23:10:29] | [INFO] Adding file: ['subSubFileTest']
+[24/02/2014 23:10:29] | [INFO] Adding file: ['subFolderTest']
+[24/02/2014 23:10:29] | [INFO] Adding file: ['folderTest']
+[24/02/2014 23:10:29] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:10:29] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:10:29] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:10:29] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:10:29] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted
+[24/02/2014 23:10:29] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:10:30] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:10:30] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted' returned: 
+[24/02/2014 23:10:30] | [INFO] Start to zip files
+[24/02/2014 23:10:30] | [WARNING] Path ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[24/02/2014 23:10:30] | [INFO] Adding files in zip [.Test.encrypted]
+[24/02/2014 23:10:30] | [INFO] Adding file: ['.Test.encrypted']
+[24/02/2014 23:10:30] | [INFO] Removing temporary files
+[24/02/2014 23:10:30] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[24/02/2014 23:10:30] | *** LOGGER CLOSED ***
+[24/02/2014 23:12:51] | *** LOGGER STARTED ***
+[24/02/2014 23:12:51] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command is not correct
+[24/02/2014 23:12:51] | [INFO] Executing command 'notExist'
+[24/02/2014 23:12:51] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand: The command 'notExist' can not be executed
+[24/02/2014 23:12:51] | [INFO] Executing command 'dir'
+[24/02/2014 23:12:51] | [INFO] Waiting for result for command 'dir'
+[24/02/2014 23:12:51] | [INFO] Command 'dir' returned: LICENSE  README.md  log  pom.xml  resources  src  target
+
+[24/02/2014 23:12:51] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:12:51] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:12:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:12:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:12:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:12:51] | [INFO] Operating System is: windows 7
+[24/02/2014 23:12:51] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[24/02/2014 23:12:51] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[24/02/2014 23:12:51] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:12:51] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:12:51] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:12:51] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:12:51] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile
+[24/02/2014 23:12:51] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:12:51] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:12:51] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile' returned: 
+[24/02/2014 23:12:51] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:12:51] | [INFO] Looking for command key: file.unHideFile
+[24/02/2014 23:12:51] | [INFO] Command found: attrib -s -h %1%%2%
+[24/02/2014 23:12:51] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:12:51] | [INFO] Final Command: attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile
+[24/02/2014 23:12:51] | [INFO] Executing command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:12:51] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:12:51] | [INFO] Command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile' returned: 
+[24/02/2014 23:12:51] | [INFO] Start to zip files
+[24/02/2014 23:12:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:12:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:12:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:12:51] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[24/02/2014 23:12:51] | [INFO] Adding file: ['fileTest']
+[24/02/2014 23:12:51] | [INFO] Adding file: ['subFileTest']
+[24/02/2014 23:12:51] | [INFO] Adding file: ['subSubFileTest']
+[24/02/2014 23:12:51] | [INFO] Adding file: ['subFolderTest']
+[24/02/2014 23:12:51] | [INFO] Adding file: ['folderTest']
+[24/02/2014 23:12:51] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:12:51] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:12:51] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:12:51] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:12:51] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted
+[24/02/2014 23:12:51] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:12:51] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:12:51] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted' returned: 
+[24/02/2014 23:12:51] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The destination file already exists
+[24/02/2014 23:12:51] | [INFO] Removing temporary files
+[24/02/2014 23:12:51] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils: The source file to zip does not exist
+[24/02/2014 23:12:51] | *** LOGGER CLOSED ***
+[24/02/2014 23:13:57] | *** LOGGER STARTED ***
+[24/02/2014 23:13:57] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[24/02/2014 23:13:57] | [INFO] Executing command 'notExist'
+[24/02/2014 23:13:57] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[24/02/2014 23:13:57] | [INFO] Executing command 'dir'
+[24/02/2014 23:13:57] | [INFO] Waiting for result for command 'dir'
+[24/02/2014 23:13:57] | [INFO] Command 'dir' returned: LICENSE  README.md  log  pom.xml  resources  src  target
+
+[24/02/2014 23:13:57] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:13:57] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:13:57] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:13:57] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:13:57] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:13:57] | [INFO] Operating System is: windows 7
+[24/02/2014 23:13:57] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[24/02/2014 23:13:57] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[24/02/2014 23:13:57] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:13:57] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:13:57] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:13:57] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:13:57] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile
+[24/02/2014 23:13:57] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:13:57] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:13:57] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile' returned: 
+[24/02/2014 23:13:57] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:13:57] | [INFO] Looking for command key: file.unHideFile
+[24/02/2014 23:13:57] | [INFO] Command found: attrib -s -h %1%%2%
+[24/02/2014 23:13:57] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:13:57] | [INFO] Final Command: attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile
+[24/02/2014 23:13:57] | [INFO] Executing command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:13:57] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:13:57] | [INFO] Command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile' returned: 
+[24/02/2014 23:13:57] | [INFO] Start to zip files
+[24/02/2014 23:13:57] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:13:57] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:13:57] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:13:57] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[24/02/2014 23:13:57] | [INFO] Adding file: ['fileTest']
+[24/02/2014 23:13:57] | [INFO] Adding file: ['subFileTest']
+[24/02/2014 23:13:57] | [INFO] Adding file: ['subSubFileTest']
+[24/02/2014 23:13:57] | [INFO] Adding file: ['subFolderTest']
+[24/02/2014 23:13:57] | [INFO] Adding file: ['folderTest']
+[24/02/2014 23:13:57] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:13:57] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:13:57] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:13:57] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:13:57] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted
+[24/02/2014 23:13:57] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:13:57] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:13:57] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted' returned: 
+[24/02/2014 23:13:57] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The destination file already exists
+[24/02/2014 23:13:57] | [INFO] Removing temporary files
+[24/02/2014 23:13:57] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[24/02/2014 23:13:57] | *** LOGGER CLOSED ***
+[24/02/2014 23:14:09] | *** LOGGER STARTED ***
+[24/02/2014 23:14:09] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[24/02/2014 23:14:09] | [INFO] Executing command 'notExist'
+[24/02/2014 23:14:09] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[24/02/2014 23:14:09] | [INFO] Executing command 'dir'
+[24/02/2014 23:14:09] | [INFO] Waiting for result for command 'dir'
+[24/02/2014 23:14:09] | [INFO] Command 'dir' returned: LICENSE  README.md  log  pom.xml  resources  src  target
+
+[24/02/2014 23:14:09] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:14:09] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:14:09] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:14:09] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:14:09] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:14:09] | [INFO] Operating System is: windows 7
+[24/02/2014 23:14:09] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[24/02/2014 23:14:09] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[24/02/2014 23:14:09] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:14:09] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:14:09] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:14:09] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:14:09] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile
+[24/02/2014 23:14:09] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:14:09] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:14:09] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile' returned: 
+[24/02/2014 23:14:09] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:14:09] | [INFO] Looking for command key: file.unHideFile
+[24/02/2014 23:14:09] | [INFO] Command found: attrib -s -h %1%%2%
+[24/02/2014 23:14:09] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:14:09] | [INFO] Final Command: attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile
+[24/02/2014 23:14:09] | [INFO] Executing command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:14:09] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:14:09] | [INFO] Command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile' returned: 
+[24/02/2014 23:14:09] | [INFO] Start to zip files
+[24/02/2014 23:14:09] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:14:09] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:14:09] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:14:09] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[24/02/2014 23:14:09] | [INFO] Adding file: ['fileTest']
+[24/02/2014 23:14:09] | [INFO] Adding file: ['subFileTest']
+[24/02/2014 23:14:09] | [INFO] Adding file: ['subSubFileTest']
+[24/02/2014 23:14:09] | [INFO] Adding file: ['subFolderTest']
+[24/02/2014 23:14:09] | [INFO] Adding file: ['folderTest']
+[24/02/2014 23:14:09] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:14:09] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:14:09] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:14:09] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:14:09] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted
+[24/02/2014 23:14:09] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:14:09] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:14:09] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted' returned: 
+[24/02/2014 23:14:09] | [INFO] Start to zip files
+[24/02/2014 23:14:09] | [WARNING] Path ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[24/02/2014 23:14:09] | [INFO] Adding files in zip [.Test.encrypted]
+[24/02/2014 23:14:09] | [INFO] Adding file: ['.Test.encrypted']
+[24/02/2014 23:14:09] | [INFO] Removing temporary files
+[24/02/2014 23:14:09] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[24/02/2014 23:14:09] | *** LOGGER CLOSED ***
+[24/02/2014 23:15:33] | *** LOGGER STARTED ***
+[24/02/2014 23:15:33] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[24/02/2014 23:15:33] | [INFO] Executing command 'notExist'
+[24/02/2014 23:15:33] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[24/02/2014 23:15:33] | [INFO] Executing command 'dir'
+[24/02/2014 23:15:33] | [INFO] Waiting for result for command 'dir'
+[24/02/2014 23:15:33] | [INFO] Command 'dir' returned: LICENSE  README.md  log  pom.xml  resources  src  target
+
+[24/02/2014 23:15:33] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:15:33] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:15:33] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:15:33] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:15:33] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:15:33] | [INFO] Operating System is: windows 7
+[24/02/2014 23:15:33] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[24/02/2014 23:15:33] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[24/02/2014 23:15:33] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:15:33] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:15:33] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:15:33] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:15:33] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile
+[24/02/2014 23:15:33] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:15:33] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:15:33] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile' returned: 
+[24/02/2014 23:15:48] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:15:48] | [INFO] Looking for command key: file.unHideFile
+[24/02/2014 23:15:48] | [INFO] Command found: attrib -s -h %1%%2%
+[24/02/2014 23:15:48] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:15:48] | [INFO] Final Command: attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile
+[24/02/2014 23:15:48] | [INFO] Executing command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:15:48] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:15:48] | [INFO] Command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile' returned: 
+[24/02/2014 23:15:48] | [INFO] Start to zip files
+[24/02/2014 23:15:48] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:15:48] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:15:48] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:15:48] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[24/02/2014 23:15:48] | [INFO] Adding file: ['fileTest']
+[24/02/2014 23:15:48] | [INFO] Adding file: ['subFileTest']
+[24/02/2014 23:15:48] | [INFO] Adding file: ['subSubFileTest']
+[24/02/2014 23:15:48] | [INFO] Adding file: ['subFolderTest']
+[24/02/2014 23:15:48] | [INFO] Adding file: ['folderTest']
+[24/02/2014 23:15:48] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:15:48] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:15:48] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:15:48] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:15:48] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted
+[24/02/2014 23:15:48] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:15:48] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:15:48] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted' returned: 
+[24/02/2014 23:15:48] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The destination file already exists
+[24/02/2014 23:15:48] | [INFO] Removing temporary files
+[24/02/2014 23:15:48] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[24/02/2014 23:15:48] | *** LOGGER CLOSED ***
+[24/02/2014 23:43:29] | *** LOGGER STARTED ***
+[24/02/2014 23:43:29] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[24/02/2014 23:43:29] | [INFO] Executing command 'notExist'
+[24/02/2014 23:43:29] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[24/02/2014 23:43:29] | [INFO] Executing command 'dir'
+[24/02/2014 23:43:29] | [INFO] Waiting for result for command 'dir'
+[24/02/2014 23:43:30] | [INFO] Command 'dir' returned: LICENSE  README.md  log  pom.xml  resources  src  target
+
+[24/02/2014 23:43:30] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[24/02/2014 23:43:30] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[24/02/2014 23:43:30] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:43:30] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:43:30] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:43:30] | [INFO] Operating System is: windows 7
+[24/02/2014 23:43:30] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[24/02/2014 23:43:30] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[24/02/2014 23:43:30] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:43:30] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:43:30] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:43:30] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .uselessFile]
+[24/02/2014 23:43:30] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile
+[24/02/2014 23:43:30] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:43:30] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile'
+[24/02/2014 23:43:30] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.uselessFile' returned: 
+[24/02/2014 23:43:30] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:43:30] | [INFO] Looking for command key: file.unHideFile
+[24/02/2014 23:43:30] | [INFO] Command found: attrib -s -h %1%%2%
+[24/02/2014 23:43:30] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, uselessFile]
+[24/02/2014 23:43:30] | [INFO] Final Command: attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile
+[24/02/2014 23:43:30] | [INFO] Executing command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:43:30] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile'
+[24/02/2014 23:43:30] | [INFO] Command 'attrib -s -h C:\Users\COMPUMONSTER\Desktop\SecureFolder\uselessFile' returned: 
+[24/02/2014 23:43:30] | [INFO] Start to zip files
+[24/02/2014 23:43:30] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[24/02/2014 23:43:30] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest']
+[24/02/2014 23:43:30] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[24/02/2014 23:43:30] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[24/02/2014 23:43:30] | [INFO] Adding file: ['fileTest']
+[24/02/2014 23:43:30] | [INFO] Adding file: ['subFileTest']
+[24/02/2014 23:43:30] | [INFO] Adding file: ['subSubFileTest']
+[24/02/2014 23:43:30] | [INFO] Adding file: ['subFolderTest']
+[24/02/2014 23:43:30] | [INFO] Adding file: ['folderTest']
+[24/02/2014 23:43:30] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:43:30] | [INFO] Looking for command key: file.hideFile
+[24/02/2014 23:43:30] | [INFO] Command found: attrib +s +h %1%%2%
+[24/02/2014 23:43:30] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolder\, .Test.encrypted]
+[24/02/2014 23:43:30] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted
+[24/02/2014 23:43:30] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:43:30] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted'
+[24/02/2014 23:43:30] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolder\.Test.encrypted' returned: 
+[24/02/2014 23:43:30] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The destination file already exists
+[24/02/2014 23:43:30] | [INFO] Removing temporary files
+[24/02/2014 23:43:30] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[24/02/2014 23:43:30] | *** LOGGER CLOSED ***
