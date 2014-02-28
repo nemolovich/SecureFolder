@@ -16,6 +16,9 @@ import fr.nemolovich.apps.securefolder.logger.LoggerManager;
  */
 public class SecureFolder {
 
+	public static final String EXTENSION_LOCK="sflock";
+	public static final String EXTENSION_UNLOCK="sfunlock";
+
 	public static final LoggerManager logger = new LoggerManager();
 
 	static {

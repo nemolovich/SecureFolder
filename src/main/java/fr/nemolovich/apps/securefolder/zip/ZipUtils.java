@@ -7,6 +7,7 @@ import java.util.Arrays;
 
 import net.lingala.zip4j.core.ZipFile;
 import net.lingala.zip4j.exception.ZipException;
+import net.lingala.zip4j.exception.ZipExceptionConstants;
 import net.lingala.zip4j.model.ZipParameters;
 import net.lingala.zip4j.util.InternalZipConstants;
 import net.lingala.zip4j.util.Zip4jConstants;
@@ -24,6 +25,8 @@ import fr.nemolovich.apps.securefolder.logger.ILogger;
 public class ZipUtils {
 	private static ClassLogger logger = new ClassLogger(ZipUtils.class,
 			SecureFolder.logger);
+
+	public static final String ENCRYPTED_EXTENSION = "encrypted";
 
 	/**
 	 * Secure a folder with a password
@@ -44,7 +47,8 @@ public class ZipUtils {
 			logger.error("The source path is not a directory");
 			return false;
 		}
-		File encrypted = new File(source.getAbsoluteFile() + ".encrypted");
+		File encrypted = new File(source.getAbsolutePath().concat(".")
+				.concat(ENCRYPTED_EXTENSION));
 		boolean created = zipFile(source, encrypted);
 		if (!created || !encrypted.exists()) {
 			logger.error("Can not secure the folder ['"
@@ -57,15 +61,28 @@ public class ZipUtils {
 					+ encrypted.getAbsolutePath() + "']");
 			return false;
 		}
-		encrypted = new File(source.getParent() + File.separator + "."
-				+ source.getName() + ".encrypted");
+		encrypted = new File(source.getParent().concat(
+				File.separator.concat(".").concat(
+						source.getName().concat(".")
+								.concat(ENCRYPTED_EXTENSION))));
 		if (!encrypted.exists()) {
 			logger.error("Temporary file ['" + encrypted.getAbsolutePath()
 					+ "'] not found");
 			return false;
 		}
-		File sflock = new File(source.getAbsoluteFile() + ".sflock");
-		created = ZipUtils.zipFile(encrypted, sflock, password);
+		File sflockFile = new File(source.getAbsolutePath().concat(".")
+				.concat(SecureFolder.EXTENSION_LOCK));
+		String cryptedPass = password;
+		// MessageDigest md = null;
+		// try {
+		// md = MessageDigest.getInstance("MD5");
+		// md.update(cryptedPass.getBytes(/* "UTF-8" */));
+		// byte[] md5 = md.digest();
+		// cryptedPass = new String(md5/* ,"UTF-8" */);
+		// } catch (NoSuchAlgorithmException ex) {
+		// cryptedPass = "nopass";
+		// }
+		created = ZipUtils.zipFile(encrypted, sflockFile, cryptedPass);
 		boolean removed = false;
 		logger.write("Removing temporary files", ILogger.SEVERITY_INFO);
 		if (encrypted.exists()) {
@@ -80,7 +97,45 @@ public class ZipUtils {
 					+ encrypted.getAbsolutePath() + "']");
 		}
 
-		return created && sflock.exists();
+		/*
+		 * TODO: REMOVE plutot que rename
+		 */
+		File temp = new File(source.getAbsoluteFile() + "_ok");
+		removed = FileUtils.renameFolder(source, temp);
+
+		return removed && created && sflockFile.exists();
+	}
+
+	public static boolean unsecureFolder(File sflockFile, String password)
+			throws ZipException {
+		if (!sflockFile.exists() || !sflockFile.isFile()) {
+			logger.error("File ['" + sflockFile.getAbsolutePath()
+					+ "'] is not a valid file");
+			return false;
+		}
+		File destination = new File(sflockFile.getParent());
+		boolean unzipped = unzipFile(sflockFile, destination, password);
+		if (!unzipped) {
+			return false;
+		}
+		File tempFile = new File(
+				sflockFile
+						.getParent()
+						.concat(File.separator)
+						.concat(".")
+						.concat(sflockFile
+								.getName()
+								.substring(
+										0,
+										sflockFile.getName().lastIndexOf(".") + 1)
+								.concat(ZipUtils.ENCRYPTED_EXTENSION)));
+		File destFolder = new File(sflockFile
+				.getParent()
+				.concat(File.separator)
+				.concat(sflockFile.getName().substring(0,
+						sflockFile.getName().lastIndexOf("."))));
+		unzipped = unzipFile(tempFile, destFolder);
+		return unzipped;
 	}
 
 	/**
@@ -163,6 +218,40 @@ public class ZipUtils {
 		}
 		return zipFile.isValidZipFile()
 				&& (zipFile.isEncrypted() || password == null);
+	}
+
+	public static boolean unzipFile(File source, File destination)
+			throws ZipException {
+		return unzipFile(source, destination, null);
+	}
+
+	public static boolean unzipFile(File source, File destination,
+			String password) throws ZipException {
+		logger.setMethodName("unzipFile");
+		if (!source.exists()) {
+			logger.error("The file to unzip does not exist");
+			return false;
+		}
+		ZipFile zipFile = new ZipFile(source);
+		if (zipFile.isEncrypted() && password != null) {
+			logger.write("Configuring password for encrypted zipped file",
+					ILogger.SEVERITY_INFO);
+			zipFile.setPassword(password);
+		}
+		try {
+			logger.write("Extracting files from ['" + source.getAbsolutePath()
+					+ "']...", ILogger.SEVERITY_INFO);
+			zipFile.extractAll(destination.getAbsolutePath());
+		} catch (ZipException e) {
+			if (e.getCode() == ZipExceptionConstants.WRONG_PASSWORD) {
+				logger.error("Wrong password");
+			}
+			throw e;
+		}
+		logger.write("Files extracted from ['" + source.getAbsolutePath()
+				+ "']", ILogger.SEVERITY_INFO);
+		return true;
+
 	}
 
 }

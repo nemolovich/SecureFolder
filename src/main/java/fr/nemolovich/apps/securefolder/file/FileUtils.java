@@ -133,7 +133,7 @@ public class FileUtils {
 				+ " with parameters " + Arrays.asList(parameters),
 				ILogger.SEVERITY_INFO);
 		BatchCommand command = batch.createCommand(commandKey, parameters);
-		System.out.println("Result: "+command.execute());
+		System.out.println("Result: " + command.execute());
 	}
 
 	/**
@@ -154,7 +154,7 @@ public class FileUtils {
 		File file = new File(path + File.separator, fileName);
 		File newFile = new File(path + File.separator, "." + fileName);
 		file.renameTo(newFile);
-		executeBatchCommand("hideFile", path + File.separator, "."+fileName);
+		executeBatchCommand("hideFile", path + File.separator, "." + fileName);
 		return newFile.exists() && newFile.isHidden();
 	}
 
@@ -178,5 +178,49 @@ public class FileUtils {
 		file.renameTo(newFile);
 		executeBatchCommand("unHideFile", path + File.separator, fileName);
 		return newFile.exists() && !newFile.isHidden();
+	}
+
+	public static boolean renameFolder(File source, File destination) {
+		if (!source.exists()) {
+			logger.error("The source folder ['" + source.getAbsolutePath()
+					+ "'] does not exist");
+			return false;
+		}
+		if (destination.exists()) {
+			logger.error("The destination folder ['" + destination.getAbsolutePath()
+					+ "'] already exists");
+			return false;
+		}
+		destination.mkdir();
+		for (File f : source.listFiles()) {
+			File dest=new File(destination.getAbsolutePath()
+					.concat(File.separator).concat(f.getName()));
+			if (f.isFile()) {
+				f.renameTo(dest);
+			} else if(f.isDirectory()) {
+				renameFolder(f, dest);
+			}
+		}
+		return source.delete();
+	}
+
+	public static boolean removeFolder(File source) {
+		if (!source.exists()) {
+			logger.error("The source folder ['" + source.getAbsolutePath()
+					+ "'] does not exist");
+			return false;
+		}
+		boolean deleted=false;
+		for (File f : source.listFiles()) {
+			if (f.isFile()) {
+				deleted=f.delete();
+			} else if(f.isDirectory()) {
+				deleted=removeFolder(f);
+			}
+			if(!deleted) {
+				break;
+			}
+		}
+		return source.delete();
 	}
 }
