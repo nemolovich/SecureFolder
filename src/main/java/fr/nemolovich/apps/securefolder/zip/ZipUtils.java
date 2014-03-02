@@ -2,6 +2,8 @@ package fr.nemolovich.apps.securefolder.zip;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -73,15 +75,15 @@ public class ZipUtils {
 		File sflockFile = new File(source.getAbsolutePath().concat(".")
 				.concat(SecureFolder.EXTENSION_LOCK));
 		String cryptedPass = password;
-		// MessageDigest md = null;
-		// try {
-		// md = MessageDigest.getInstance("MD5");
-		// md.update(cryptedPass.getBytes(/* "UTF-8" */));
-		// byte[] md5 = md.digest();
-		// cryptedPass = new String(md5/* ,"UTF-8" */);
-		// } catch (NoSuchAlgorithmException ex) {
-		// cryptedPass = "nopass";
-		// }
+		MessageDigest md = null;
+		try {
+			md = MessageDigest.getInstance("MD5");
+			md.update(cryptedPass.getBytes(/* "UTF-8" */));
+			byte[] md5 = md.digest();
+			cryptedPass = new String(md5/* ,"UTF-8" */);
+		} catch (NoSuchAlgorithmException ex) {
+			cryptedPass = "nopass";
+		}
 		created = ZipUtils.zipFile(encrypted, sflockFile, cryptedPass);
 		boolean removed = false;
 		logger.write("Removing temporary files", ILogger.SEVERITY_INFO);
@@ -97,24 +99,31 @@ public class ZipUtils {
 					+ encrypted.getAbsolutePath() + "']");
 		}
 
-		/*
-		 * TODO: REMOVE plutot que rename
-		 */
-		File temp = new File(source.getAbsoluteFile() + "_ok");
-		removed = FileUtils.renameFolder(source, temp);
+		removed = FileUtils.removeFolder(source);
 
 		return removed && created && sflockFile.exists();
 	}
 
 	public static boolean unsecureFolder(File sflockFile, String password)
 			throws ZipException {
+		logger.setMethodName("unsecureFodler");
 		if (!sflockFile.exists() || !sflockFile.isFile()) {
 			logger.error("File ['" + sflockFile.getAbsolutePath()
 					+ "'] is not a valid file");
 			return false;
 		}
 		File destination = new File(sflockFile.getParent());
-		boolean unzipped = unzipFile(sflockFile, destination, password);
+		String cryptedPass = password;
+		MessageDigest md = null;
+		try {
+			md = MessageDigest.getInstance("MD5");
+			md.update(cryptedPass.getBytes(/* "UTF-8" */));
+			byte[] md5 = md.digest();
+			cryptedPass = new String(md5/* ,"UTF-8" */);
+		} catch (NoSuchAlgorithmException ex) {
+			cryptedPass = "nopass";
+		}
+		boolean unzipped = unzipFile(sflockFile, destination, cryptedPass);
 		if (!unzipped) {
 			return false;
 		}
@@ -129,13 +138,32 @@ public class ZipUtils {
 										0,
 										sflockFile.getName().lastIndexOf(".") + 1)
 								.concat(ZipUtils.ENCRYPTED_EXTENSION)));
+		FileUtils.hideFile(tempFile.getParent(), tempFile.getName());
 		File destFolder = new File(sflockFile
 				.getParent()
 				.concat(File.separator)
 				.concat(sflockFile.getName().substring(0,
 						sflockFile.getName().lastIndexOf("."))));
 		unzipped = unzipFile(tempFile, destFolder);
+		if (unzipped) {
+			unzipped = tempFile.delete();
+		}
 		return unzipped;
+	}
+
+	public static boolean secureBackFolder(File sflockFile) {
+		logger.setMethodName("secureBackFolder");
+		if (!sflockFile.exists() || !sflockFile.isFile()) {
+			logger.error("File ['" + sflockFile.getAbsolutePath()
+					+ "'] is not a valid file");
+			return false;
+		}
+		String folderName = sflockFile.getAbsolutePath();
+		folderName = folderName.substring(0, folderName.lastIndexOf("."));
+		File sourceFolder = new File(folderName);
+		logger.error("Removing folder ['" + sourceFolder.getAbsolutePath()
+				+ "']");
+		return FileUtils.removeFolder(sourceFolder);
 	}
 
 	/**

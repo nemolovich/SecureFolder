@@ -152,9 +152,13 @@ public class FileUtils {
 			return false;
 		}
 		File file = new File(path + File.separator, fileName);
-		File newFile = new File(path + File.separator, "." + fileName);
-		file.renameTo(newFile);
-		executeBatchCommand("hideFile", path + File.separator, "." + fileName);
+		File newFile = new File(path + File.separator, ".".concat(fileName));
+		if(file.getName().startsWith(".")) {
+			newFile=file;
+		} else {
+			file.renameTo(newFile);
+		}
+		executeBatchCommand("hideFile", path + File.separator, newFile.getName());
 		return newFile.exists() && newFile.isHidden();
 	}
 
@@ -181,6 +185,7 @@ public class FileUtils {
 	}
 
 	public static boolean renameFolder(File source, File destination) {
+		logger.setMethodName("renameFolder");
 		if (!source.exists()) {
 			logger.error("The source folder ['" + source.getAbsolutePath()
 					+ "'] does not exist");
@@ -205,9 +210,10 @@ public class FileUtils {
 	}
 
 	public static boolean removeFolder(File source) {
+		logger.setMethodName("removeFolder");
 		if (!source.exists()) {
-			logger.error("The source folder ['" + source.getAbsolutePath()
-					+ "'] does not exist");
+			logger.write("The source folder ['" + source.getAbsolutePath()
+					+ "'] does not exist",ILogger.SEVERITY_INFO);
 			return false;
 		}
 		boolean deleted=false;
