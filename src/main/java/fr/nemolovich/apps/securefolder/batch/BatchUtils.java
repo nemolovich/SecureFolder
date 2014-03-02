@@ -25,7 +25,7 @@ public class BatchUtils {
 			SecureFolder.logger);;
 	private static char delimiter = '%';
 
-	public static final String BATCHS_PATH = "resources" + File.separator
+	public static final String BATCHS_PATH = "src/main/resources" + File.separator
 			+ "batchs" + File.separator;
 	public static BatchUtils INSTANCE = null;
 	private Properties properties;
@@ -46,11 +46,20 @@ public class BatchUtils {
 		String os = System.getProperty("os.name").toLowerCase();
 		BatchUtils.logger.write("Operating System is: " + os, ILogger.SEVERITY_INFO);
 		File propFile = null;
-		for (String file : new File(BATCHS_PATH).list()) {
+		File path=new File(BATCHS_PATH);
+		if(!path.exists()) {
+			BatchUtils.logger.error("Resources path does not exist");
+			System.exit(0);
+		}
+		for (String file : path.list()) {
 			if (os.contains(file.substring(0, file.lastIndexOf(".")))) {
 				propFile = new File(BATCHS_PATH + file);
 				break;
 			}
+		}
+		if(propFile==null) {
+			BatchUtils.logger.error("Can not load Operating System properties");
+			System.exit(0);
 		}
 		BatchUtils.logger.write("Properties file to use: ['" + propFile.getAbsolutePath()
 				+ "']", ILogger.SEVERITY_INFO);

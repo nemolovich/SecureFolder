@@ -161,8 +161,8 @@ public class ZipUtils {
 		String folderName = sflockFile.getAbsolutePath();
 		folderName = folderName.substring(0, folderName.lastIndexOf("."));
 		File sourceFolder = new File(folderName);
-		logger.error("Removing folder ['" + sourceFolder.getAbsolutePath()
-				+ "']");
+		logger.write("Removing folder ['" + sourceFolder.getAbsolutePath()
+				+ "']", ILogger.SEVERITY_INFO);
 		return FileUtils.removeFolder(sourceFolder);
 	}
 

@@ -15,7 +15,6 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 import fr.nemolovich.apps.securefolder.SecureFolder;
-import fr.nemolovich.apps.securefolder.file.FileUtils;
 import fr.nemolovich.apps.securefolder.zip.ZipUtils;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
@@ -84,15 +83,15 @@ public class TestZipUtils {
 
 	@AfterClass
 	public static void close() {
-		File sourceFolder = new File(MainTestSuite.FILE_PATH.concat(
-				File.separator).concat(MainTestSuite.FOLDER_NAME));
-		assertTrue(FileUtils.removeFolder(sourceFolder));
-		sourceFolder = new File(MainTestSuite.FILE_PATH.concat(File.separator)
-				.concat(MainTestSuite.FOLDER_NAME).concat("_ok"));
-		assertTrue(FileUtils.renameFolder(
-				sourceFolder,
-				new File(MainTestSuite.FILE_PATH.concat(File.separator).concat(
-						MainTestSuite.FOLDER_NAME))));
+//		File sourceFolder = new File(MainTestSuite.FILE_PATH.concat(
+//				File.separator).concat(MainTestSuite.FOLDER_NAME));
+//		assertTrue(FileUtils.removeFolder(sourceFolder));
+//		sourceFolder = new File(MainTestSuite.FILE_PATH.concat(File.separator)
+//				.concat(MainTestSuite.FOLDER_NAME).concat("_ok"));
+//		assertTrue(FileUtils.renameFolder(
+//				sourceFolder,
+//				new File(MainTestSuite.FILE_PATH.concat(File.separator).concat(
+//						MainTestSuite.FOLDER_NAME))));
 		File sourceFile = new File(MainTestSuite.FILE_PATH + File.separator
 				+ MainTestSuite.FILE_NAME);
 		assertTrue(sourceFile.delete());
@@ -108,12 +107,12 @@ public class TestZipUtils {
 				+ MainTestSuite.FOLDER_NAME.concat(".").concat(
 						SecureFolder.EXTENSION_LOCK));
 		assertTrue(sflockFile.delete());
-		File encrypted = new File(MainTestSuite.FILE_PATH
-				.concat(File.separator)
-				.concat(".")
-				.concat(MainTestSuite.FOLDER_NAME.concat(".").concat(
-						ZipUtils.ENCRYPTED_EXTENSION)));
-		assertTrue(encrypted.delete());
+//		File encrypted = new File(MainTestSuite.FILE_PATH
+//				.concat(File.separator)
+//				.concat(".")
+//				.concat(MainTestSuite.FOLDER_NAME.concat(".").concat(
+//						ZipUtils.ENCRYPTED_EXTENSION)));
+//		assertTrue(encrypted.delete());
 		if (!MainTestSuite.isExecutingAll()) {
 			MainTestSuite.close();
 		}

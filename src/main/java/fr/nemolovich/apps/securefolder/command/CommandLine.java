@@ -32,6 +32,10 @@ public class CommandLine {
 
 	public boolean execute() {
 		this.logger.setMethodName("execute");
+		if(this.args.length<1) {
+			this.logger.error("Please specify options");
+			return false;
+		}
 		List<String> params = new ArrayList<String>();
 		this.option = null;
 		for (String arg : this.args) {

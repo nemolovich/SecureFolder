@@ -34,6 +34,9 @@ public class FileLogger extends ConsoleLogger {
 	 */
 	public FileLogger(String filePath) {
 		this.fileLog = new File(filePath);
+		if(!this.fileLog.getParentFile().exists()) {
+			this.fileLog.getParentFile().mkdirs();
+		}
 		this.fileLog.setWritable(false);
 	}
 
