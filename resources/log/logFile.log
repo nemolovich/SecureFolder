@@ -1,0 +1,168 @@
+[04/03/2014 19:22:42] | *** LOGGER STARTED ***
+[04/03/2014 19:22:42] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock'] is not a valid file
+[04/03/2014 19:22:42] | *** LOGGER CLOSED ***
+[04/03/2014 19:23:21] | *** LOGGER STARTED ***
+[04/03/2014 19:23:21] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:23:21] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:23:22] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:23:22] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE <PASSWORD>
+[04/03/2014 19:23:22] | *** LOGGER CLOSED ***
+[04/03/2014 19:24:04] | *** LOGGER STARTED ***
+[04/03/2014 19:24:04] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:24:04] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:24:04] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:24:04] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
+[04/03/2014 19:24:04] | *** LOGGER CLOSED ***
+[04/03/2014 19:24:27] | *** LOGGER STARTED ***
+[04/03/2014 19:24:27] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:24:27] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:24:27] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:24:27] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
+[04/03/2014 19:24:27] | *** LOGGER CLOSED ***
+[04/03/2014 19:25:18] | *** LOGGER STARTED ***
+[04/03/2014 19:25:19] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:25:19] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:25:19] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:25:19] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
+[04/03/2014 19:25:19] | *** LOGGER CLOSED ***
+[04/03/2014 19:27:00] | *** LOGGER STARTED ***
+[04/03/2014 19:27:57] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:27:57] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:27:57] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:27:57] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
+[04/03/2014 19:27:57] | *** LOGGER CLOSED ***
+[04/03/2014 19:28:56] | *** LOGGER STARTED ***
+[04/03/2014 19:28:59] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:28:59] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:29:33] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:29:33] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
+[04/03/2014 19:29:33] | *** LOGGER CLOSED ***
+[04/03/2014 19:29:51] | *** LOGGER STARTED ***
+[04/03/2014 19:29:51] | [INFO] Start to zip files
+[04/03/2014 19:29:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[04/03/2014 19:29:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test\folderTest']
+[04/03/2014 19:29:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[04/03/2014 19:29:51] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[04/03/2014 19:29:51] | [INFO] Adding file: ['fileTest']
+[04/03/2014 19:29:51] | [INFO] Adding file: ['subFileTest']
+[04/03/2014 19:29:51] | [INFO] Adding file: ['subSubFileTest']
+[04/03/2014 19:29:51] | [INFO] Adding file: ['subFolderTest']
+[04/03/2014 19:29:51] | [INFO] Adding file: ['folderTest']
+[04/03/2014 19:29:51] | [INFO] Operating System is: windows 7
+[04/03/2014 19:29:51] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
+[04/03/2014 19:29:51] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
+[04/03/2014 19:29:51] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:29:51] | [INFO] Looking for command key: file.hideFile
+[04/03/2014 19:29:51] | [INFO] Command found: attrib +s +h %1%%2%
+[04/03/2014 19:29:51] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:29:51] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[04/03/2014 19:29:51] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:29:51] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:29:51] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[04/03/2014 19:29:51] | [INFO] Start to zip files
+[04/03/2014 19:29:51] | [WARNING] Path ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[04/03/2014 19:29:51] | [INFO] Adding files in zip [.Test.encrypted]
+[04/03/2014 19:29:51] | [INFO] Adding file: ['.Test.encrypted']
+[04/03/2014 19:29:51] | [INFO] Removing temporary files
+[04/03/2014 19:29:51] | *** LOGGER CLOSED ***
+[04/03/2014 19:29:56] | *** LOGGER STARTED ***
+[04/03/2014 19:29:56] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[04/03/2014 19:29:56] | [ERROR] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: The source ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] can not be found
+[04/03/2014 19:29:56] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[04/03/2014 19:29:56] | *** LOGGER CLOSED ***
+[04/03/2014 19:29:59] | *** LOGGER STARTED ***
+[04/03/2014 19:29:59] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:29:59] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:30:00] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:30:00] | [INFO] Operating System is: windows 7
+[04/03/2014 19:30:00] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
+[04/03/2014 19:30:00] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
+[04/03/2014 19:30:00] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:00] | [INFO] Looking for command key: file.hideFile
+[04/03/2014 19:30:00] | [INFO] Command found: attrib +s +h %1%%2%
+[04/03/2014 19:30:00] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:00] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[04/03/2014 19:30:00] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:00] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:00] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[04/03/2014 19:30:00] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[04/03/2014 19:30:00] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[04/03/2014 19:30:00] | *** LOGGER CLOSED ***
+[04/03/2014 19:30:11] | *** LOGGER STARTED ***
+[04/03/2014 19:30:11] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:30:11] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:30:12] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:30:12] | [INFO] Operating System is: windows 7
+[04/03/2014 19:30:12] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
+[04/03/2014 19:30:12] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
+[04/03/2014 19:30:12] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:12] | [INFO] Looking for command key: file.hideFile
+[04/03/2014 19:30:12] | [INFO] Command found: attrib +s +h %1%%2%
+[04/03/2014 19:30:12] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:12] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[04/03/2014 19:30:12] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:12] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:12] | *** LOGGER STARTED ***
+[04/03/2014 19:30:12] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:30:12] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:30:12] | *** LOGGER STARTED ***
+[04/03/2014 19:30:12] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:30:12] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:30:12] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[04/03/2014 19:30:12] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[04/03/2014 19:30:12] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[04/03/2014 19:30:12] | *** LOGGER CLOSED ***
+[04/03/2014 19:30:12] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:30:12] | [INFO] Operating System is: windows 7
+[04/03/2014 19:30:12] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
+[04/03/2014 19:30:12] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
+[04/03/2014 19:30:12] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:12] | [INFO] Looking for command key: file.hideFile
+[04/03/2014 19:30:12] | [INFO] Command found: attrib +s +h %1%%2%
+[04/03/2014 19:30:12] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:12] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[04/03/2014 19:30:12] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:12] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:13] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:30:13] | [INFO] Operating System is: windows 7
+[04/03/2014 19:30:13] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
+[04/03/2014 19:30:13] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
+[04/03/2014 19:30:13] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:13] | [INFO] Looking for command key: file.hideFile
+[04/03/2014 19:30:13] | [INFO] Command found: attrib +s +h %1%%2%
+[04/03/2014 19:30:13] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:30:13] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[04/03/2014 19:30:13] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:13] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:30:13] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[04/03/2014 19:30:13] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[04/03/2014 19:30:13] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[04/03/2014 19:30:13] | *** LOGGER CLOSED ***
+[04/03/2014 19:30:13] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: Fichier introuvable - C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+
+[04/03/2014 19:30:13] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unzipFile}: The file to unzip does not exist
+[04/03/2014 19:30:13] | *** LOGGER CLOSED ***
+[04/03/2014 19:30:20] | *** LOGGER STARTED ***
+[04/03/2014 19:30:20] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[04/03/2014 19:30:20] | *** LOGGER CLOSED ***
+[04/03/2014 19:45:33] | *** LOGGER STARTED ***
+[04/03/2014 19:45:33] | [INFO] Configuring password for encrypted zipped file
+[04/03/2014 19:45:33] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[04/03/2014 19:45:34] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[04/03/2014 19:45:34] | [INFO] Operating System is: windows 7
+[04/03/2014 19:45:34] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
+[04/03/2014 19:45:34] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
+[04/03/2014 19:45:34] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:45:34] | [INFO] Looking for command key: file.hideFile
+[04/03/2014 19:45:34] | [INFO] Command found: attrib +s +h %1%%2%
+[04/03/2014 19:45:34] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[04/03/2014 19:45:34] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[04/03/2014 19:45:34] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:45:34] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[04/03/2014 19:45:34] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[04/03/2014 19:45:34] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[04/03/2014 19:45:34] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[04/03/2014 19:45:34] | *** LOGGER CLOSED ***
+[04/03/2014 19:45:39] | *** LOGGER STARTED ***
+[04/03/2014 19:45:39] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[04/03/2014 19:45:39] | *** LOGGER CLOSED ***

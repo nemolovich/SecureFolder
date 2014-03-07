@@ -7,9 +7,7 @@
 @REM   JAVA_HOME - location of a JDK home dir
 
 @echo off
-set PRODUCT_NAME=SecureFolder
-set PRODUCT_PACKAGE=securefolder
-set PRODUCT_VERSION=0.0.4
+call config.bat
 
 set ERROR_CODE=0
 

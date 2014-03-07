@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.Properties;
 
 import fr.nemolovich.apps.securefolder.SecureFolder;
+import fr.nemolovich.apps.securefolder.config.ConfigUtils;
 import fr.nemolovich.apps.securefolder.logger.ClassLogger;
 import fr.nemolovich.apps.securefolder.logger.ILogger;
 
@@ -25,9 +26,9 @@ public class BatchUtils {
 			SecureFolder.logger);;
 	private static char delimiter = '%';
 
-	public static final String BATCHS_PATH = "src/main/resources" + File.separator
+	private static String BATCHS_PATH = ConfigUtils.getInstance().getProperty("batch.folder") + File.separator
 			+ "batchs" + File.separator;
-	public static BatchUtils INSTANCE = null;
+	private static BatchUtils INSTANCE = null;
 	private Properties properties;
 
 	private BatchUtils(Properties properties) {
@@ -42,7 +43,7 @@ public class BatchUtils {
 	}
 
 	private static BatchUtils init() {
-		logger.setMethodName("init");
+		logger.setMethodName("init");		
 		String os = System.getProperty("os.name").toLowerCase();
 		BatchUtils.logger.write("Operating System is: " + os, ILogger.SEVERITY_INFO);
 		File propFile = null;

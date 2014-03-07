@@ -23,13 +23,14 @@ public class UnzipOption extends CommandOption {
 			} catch (ZipException e) {
 				this.logger.error("Error while unsecuring folder ['"
 						+ source.getAbsolutePath() + "']");
+				return false;
 			}
 		} else {
 			this.logger.error("Invalid parameters "
 					+ (this.parameters != null ? Arrays
 							.toString(this.parameters.toArray()) : "null"));
 		}
-		this.logger.info("Usage: --unzip|-u <SOURCE_FILE <PASSWORD>");
+		this.logger.info("Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>");
 		return false;
 	}
 
