@@ -15,6 +15,8 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 import fr.nemolovich.apps.securefolder.SecureFolder;
+import fr.nemolovich.apps.securefolder.batch.exception.BatchException;
+import fr.nemolovich.apps.securefolder.zip.IZipConstants;
 import fr.nemolovich.apps.securefolder.zip.ZipUtils;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
@@ -54,22 +56,21 @@ public class TestZipUtils {
 
 	@Test
 	public void secureExistingFolder() throws ZipException,
-			FileNotFoundException {
-		boolean created = ZipUtils.secureFolder(new File(
-				MainTestSuite.FILE_PATH + File.separator
-						+ MainTestSuite.FOLDER_NAME), "azerty");
-		assertTrue(created);
+			FileNotFoundException, BatchException {
+		int created = ZipUtils.secureFolder(new File(MainTestSuite.FILE_PATH
+				+ File.separator + MainTestSuite.FOLDER_NAME), "azerty");
+		assertTrue(created == IZipConstants.SUCCESS_STATUS);
 	}
 
 	@Test
 	public void unsecureExistingFolder() throws ZipException,
-			FileNotFoundException {
-		boolean created = ZipUtils.unsecureFolder(
+			FileNotFoundException, BatchException {
+		int created = ZipUtils.unsecureFolder(
 				new File(MainTestSuite.FILE_PATH
 						+ File.separator
 						+ MainTestSuite.FOLDER_NAME.concat(".").concat(
 								SecureFolder.EXTENSION_LOCK)), "azerty");
-		assertTrue(created);
+		assertTrue(created == IZipConstants.SUCCESS_STATUS);
 	}
 
 	@BeforeClass
@@ -83,15 +84,16 @@ public class TestZipUtils {
 
 	@AfterClass
 	public static void close() {
-//		File sourceFolder = new File(MainTestSuite.FILE_PATH.concat(
-//				File.separator).concat(MainTestSuite.FOLDER_NAME));
-//		assertTrue(FileUtils.removeFolder(sourceFolder));
-//		sourceFolder = new File(MainTestSuite.FILE_PATH.concat(File.separator)
-//				.concat(MainTestSuite.FOLDER_NAME).concat("_ok"));
-//		assertTrue(FileUtils.renameFolder(
-//				sourceFolder,
-//				new File(MainTestSuite.FILE_PATH.concat(File.separator).concat(
-//						MainTestSuite.FOLDER_NAME))));
+		// File sourceFolder = new File(MainTestSuite.FILE_PATH.concat(
+		// File.separator).concat(MainTestSuite.FOLDER_NAME));
+		// assertTrue(FileUtils.removeFolder(sourceFolder));
+		// sourceFolder = new
+		// File(MainTestSuite.FILE_PATH.concat(File.separator)
+		// .concat(MainTestSuite.FOLDER_NAME).concat("_ok"));
+		// assertTrue(FileUtils.renameFolder(
+		// sourceFolder,
+		// new File(MainTestSuite.FILE_PATH.concat(File.separator).concat(
+		// MainTestSuite.FOLDER_NAME))));
 		File sourceFile = new File(MainTestSuite.FILE_PATH + File.separator
 				+ MainTestSuite.FILE_NAME);
 		assertTrue(sourceFile.delete());
@@ -107,12 +109,12 @@ public class TestZipUtils {
 				+ MainTestSuite.FOLDER_NAME.concat(".").concat(
 						SecureFolder.EXTENSION_LOCK));
 		assertTrue(sflockFile.delete());
-//		File encrypted = new File(MainTestSuite.FILE_PATH
-//				.concat(File.separator)
-//				.concat(".")
-//				.concat(MainTestSuite.FOLDER_NAME.concat(".").concat(
-//						ZipUtils.ENCRYPTED_EXTENSION)));
-//		assertTrue(encrypted.delete());
+		// File encrypted = new File(MainTestSuite.FILE_PATH
+		// .concat(File.separator)
+		// .concat(".")
+		// .concat(MainTestSuite.FOLDER_NAME.concat(".").concat(
+		// ZipUtils.ENCRYPTED_EXTENSION)));
+		// assertTrue(encrypted.delete());
 		if (!MainTestSuite.isExecutingAll()) {
 			MainTestSuite.close();
 		}

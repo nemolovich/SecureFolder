@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\nemolovich.apps.SecureFolder]
+
+[-HKEY_CURRENT_USER\Software\Classes\.sflock\shell\LockFile]
+
+[-HKEY_CLASSES_ROOT\.sflock]
+
+[-HKEY_CURRENT_USER\Software\Classes\.sfunlock\shell\UnlockFile]
+
+[-HKEY_CLASSES_ROOT\.sfunlock]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\SecureFodler]
+
+[-HKEY_CLASSES_ROOT\Folder\shell\SecureFodler]

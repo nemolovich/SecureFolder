@@ -1,7 +1,7 @@
 package fr.nemolovich.apps.securefolder.command.option;
 
 import java.util.Arrays;
-import java.util.List;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 import fr.nemolovich.apps.securefolder.SecureFolder;
 import fr.nemolovich.apps.securefolder.logger.ClassLogger;
@@ -12,7 +12,7 @@ public abstract class CommandOption implements ICommandOption {
 
 	protected String commandName;
 	protected Character commandChar;
-	protected List<String> parameters;
+	protected ConcurrentLinkedQueue<String> parameters;
 
 	private CommandOption() {
 		this.commandName = null;
@@ -26,15 +26,16 @@ public abstract class CommandOption implements ICommandOption {
 		this.commandName = commandName;
 		this.commandChar = commandChar;
 	}
-	
+
 	public void setParameters(String... parameters) {
-		this.parameters=Arrays.asList(parameters);
+		this.parameters = new ConcurrentLinkedQueue<String>(
+				Arrays.asList(parameters));
 	}
-	
+
 	public String getCommandName() {
 		return this.commandName;
 	}
-	
+
 	public Character getCommandChar() {
 		return this.commandChar;
 	}

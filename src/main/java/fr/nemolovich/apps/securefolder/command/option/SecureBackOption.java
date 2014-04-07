@@ -1,9 +1,8 @@
-package fr.nemolovich.apps.securefolder.command;
+package fr.nemolovich.apps.securefolder.command.option;
 
 import java.io.File;
 import java.util.Arrays;
 
-import fr.nemolovich.apps.securefolder.command.option.CommandOption;
 import fr.nemolovich.apps.securefolder.zip.ZipUtils;
 
 public class SecureBackOption extends CommandOption {
@@ -16,7 +15,7 @@ public class SecureBackOption extends CommandOption {
 	public boolean execute() {
 		this.logger.setMethodName("execute");
 		if (this.parameters != null && this.parameters.size() >= 1) {
-			File source = new File(this.parameters.get(0));
+			File source = new File(this.parameters.poll());
 			return ZipUtils.secureBackFolder(source);
 		} else {
 			this.logger.error("Invalid parameters "

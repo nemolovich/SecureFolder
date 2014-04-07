@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.nemolovich.apps.securefolder.SecureFolder;
+import fr.nemolovich.apps.securefolder.batch.exception.BatchException;
 import fr.nemolovich.apps.securefolder.command.option.HelpOption;
 import fr.nemolovich.apps.securefolder.command.option.ICommandOption;
+import fr.nemolovich.apps.securefolder.command.option.SecureBackOption;
 import fr.nemolovich.apps.securefolder.command.option.UnzipOption;
 import fr.nemolovich.apps.securefolder.command.option.ZipOption;
 import fr.nemolovich.apps.securefolder.logger.ClassLogger;
@@ -30,7 +32,7 @@ public class CommandLine {
 		this.args = args;
 	}
 
-	public boolean execute() {
+	public boolean execute() throws BatchException {
 		this.logger.setMethodName("execute");
 		if(this.args.length<1) {
 			this.logger.error("Please specify options");

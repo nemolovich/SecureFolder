@@ -1,168 +1,1884 @@
-[04/03/2014 19:22:42] | *** LOGGER STARTED ***
-[04/03/2014 19:22:42] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock'] is not a valid file
-[04/03/2014 19:22:42] | *** LOGGER CLOSED ***
-[04/03/2014 19:23:21] | *** LOGGER STARTED ***
-[04/03/2014 19:23:21] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:23:21] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:23:22] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:23:22] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE <PASSWORD>
-[04/03/2014 19:23:22] | *** LOGGER CLOSED ***
-[04/03/2014 19:24:04] | *** LOGGER STARTED ***
-[04/03/2014 19:24:04] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:24:04] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:24:04] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:24:04] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
-[04/03/2014 19:24:04] | *** LOGGER CLOSED ***
-[04/03/2014 19:24:27] | *** LOGGER STARTED ***
-[04/03/2014 19:24:27] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:24:27] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:24:27] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:24:27] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
-[04/03/2014 19:24:27] | *** LOGGER CLOSED ***
-[04/03/2014 19:25:18] | *** LOGGER STARTED ***
-[04/03/2014 19:25:19] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:25:19] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:25:19] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:25:19] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
-[04/03/2014 19:25:19] | *** LOGGER CLOSED ***
-[04/03/2014 19:27:00] | *** LOGGER STARTED ***
-[04/03/2014 19:27:57] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:27:57] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:27:57] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:27:57] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
-[04/03/2014 19:27:57] | *** LOGGER CLOSED ***
-[04/03/2014 19:28:56] | *** LOGGER STARTED ***
-[04/03/2014 19:28:59] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:28:59] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:29:33] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:29:33] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
-[04/03/2014 19:29:33] | *** LOGGER CLOSED ***
-[04/03/2014 19:29:51] | *** LOGGER STARTED ***
-[04/03/2014 19:29:51] | [INFO] Start to zip files
-[04/03/2014 19:29:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
-[04/03/2014 19:29:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test\folderTest']
-[04/03/2014 19:29:51] | [INFO] Getting path content: ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
-[04/03/2014 19:29:51] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
-[04/03/2014 19:29:51] | [INFO] Adding file: ['fileTest']
-[04/03/2014 19:29:51] | [INFO] Adding file: ['subFileTest']
-[04/03/2014 19:29:51] | [INFO] Adding file: ['subSubFileTest']
-[04/03/2014 19:29:51] | [INFO] Adding file: ['subFolderTest']
-[04/03/2014 19:29:51] | [INFO] Adding file: ['folderTest']
-[04/03/2014 19:29:51] | [INFO] Operating System is: windows 7
-[04/03/2014 19:29:51] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
-[04/03/2014 19:29:51] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
-[04/03/2014 19:29:51] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:29:51] | [INFO] Looking for command key: file.hideFile
-[04/03/2014 19:29:51] | [INFO] Command found: attrib +s +h %1%%2%
-[04/03/2014 19:29:51] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:29:51] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-[04/03/2014 19:29:51] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:29:51] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:29:51] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
-[04/03/2014 19:29:51] | [INFO] Start to zip files
-[04/03/2014 19:29:51] | [WARNING] Path ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
-[04/03/2014 19:29:51] | [INFO] Adding files in zip [.Test.encrypted]
-[04/03/2014 19:29:51] | [INFO] Adding file: ['.Test.encrypted']
-[04/03/2014 19:29:51] | [INFO] Removing temporary files
-[04/03/2014 19:29:51] | *** LOGGER CLOSED ***
-[04/03/2014 19:29:56] | *** LOGGER STARTED ***
-[04/03/2014 19:29:56] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
-[04/03/2014 19:29:56] | [ERROR] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: The source ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] can not be found
-[04/03/2014 19:29:56] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
-[04/03/2014 19:29:56] | *** LOGGER CLOSED ***
-[04/03/2014 19:29:59] | *** LOGGER STARTED ***
-[04/03/2014 19:29:59] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:29:59] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:30:00] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:30:00] | [INFO] Operating System is: windows 7
-[04/03/2014 19:30:00] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
-[04/03/2014 19:30:00] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
-[04/03/2014 19:30:00] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:00] | [INFO] Looking for command key: file.hideFile
-[04/03/2014 19:30:00] | [INFO] Command found: attrib +s +h %1%%2%
-[04/03/2014 19:30:00] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:00] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-[04/03/2014 19:30:00] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:00] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:00] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
-[04/03/2014 19:30:00] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
-[04/03/2014 19:30:00] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
-[04/03/2014 19:30:00] | *** LOGGER CLOSED ***
-[04/03/2014 19:30:11] | *** LOGGER STARTED ***
-[04/03/2014 19:30:11] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:30:11] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:30:12] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:30:12] | [INFO] Operating System is: windows 7
-[04/03/2014 19:30:12] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
-[04/03/2014 19:30:12] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
-[04/03/2014 19:30:12] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:12] | [INFO] Looking for command key: file.hideFile
-[04/03/2014 19:30:12] | [INFO] Command found: attrib +s +h %1%%2%
-[04/03/2014 19:30:12] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:12] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-[04/03/2014 19:30:12] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:12] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:12] | *** LOGGER STARTED ***
-[04/03/2014 19:30:12] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:30:12] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:30:12] | *** LOGGER STARTED ***
-[04/03/2014 19:30:12] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:30:12] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:30:12] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
-[04/03/2014 19:30:12] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
-[04/03/2014 19:30:12] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
-[04/03/2014 19:30:12] | *** LOGGER CLOSED ***
-[04/03/2014 19:30:12] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:30:12] | [INFO] Operating System is: windows 7
-[04/03/2014 19:30:12] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
-[04/03/2014 19:30:12] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
-[04/03/2014 19:30:12] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:12] | [INFO] Looking for command key: file.hideFile
-[04/03/2014 19:30:12] | [INFO] Command found: attrib +s +h %1%%2%
-[04/03/2014 19:30:12] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:12] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-[04/03/2014 19:30:12] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:12] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:13] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:30:13] | [INFO] Operating System is: windows 7
-[04/03/2014 19:30:13] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties']
-[04/03/2014 19:30:13] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\src\main\resources\batchs\win.properties'] loaded
-[04/03/2014 19:30:13] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:13] | [INFO] Looking for command key: file.hideFile
-[04/03/2014 19:30:13] | [INFO] Command found: attrib +s +h %1%%2%
-[04/03/2014 19:30:13] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:30:13] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-[04/03/2014 19:30:13] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:13] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:30:13] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
-[04/03/2014 19:30:13] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
-[04/03/2014 19:30:13] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
-[04/03/2014 19:30:13] | *** LOGGER CLOSED ***
-[04/03/2014 19:30:13] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: Fichier introuvable - C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-
-[04/03/2014 19:30:13] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unzipFile}: The file to unzip does not exist
-[04/03/2014 19:30:13] | *** LOGGER CLOSED ***
-[04/03/2014 19:30:20] | *** LOGGER STARTED ***
-[04/03/2014 19:30:20] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
-[04/03/2014 19:30:20] | *** LOGGER CLOSED ***
-[04/03/2014 19:45:33] | *** LOGGER STARTED ***
-[04/03/2014 19:45:33] | [INFO] Configuring password for encrypted zipped file
-[04/03/2014 19:45:33] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
-[04/03/2014 19:45:34] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
-[04/03/2014 19:45:34] | [INFO] Operating System is: windows 7
-[04/03/2014 19:45:34] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties']
-[04/03/2014 19:45:34] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\resources\batchs\win.properties'] loaded
-[04/03/2014 19:45:34] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:45:34] | [INFO] Looking for command key: file.hideFile
-[04/03/2014 19:45:34] | [INFO] Command found: attrib +s +h %1%%2%
-[04/03/2014 19:45:34] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
-[04/03/2014 19:45:34] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
-[04/03/2014 19:45:34] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:45:34] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
-[04/03/2014 19:45:34] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
-[04/03/2014 19:45:34] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
-[04/03/2014 19:45:34] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
-[04/03/2014 19:45:34] | *** LOGGER CLOSED ***
-[04/03/2014 19:45:39] | *** LOGGER STARTED ***
-[04/03/2014 19:45:39] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
-[04/03/2014 19:45:39] | *** LOGGER CLOSED ***
+[10/03/2014 00:00:46] | *** LOGGER STARTED ***
+[10/03/2014 00:00:46] | [WARNING] fr.nemolovich.apps.securefolder.config.ConfigUtils{Constructor}: C:\Users\COMPUMONSTER\git\secureFodler.ini
+[10/03/2014 00:00:46] | [INFO] Configurations loaded
+[10/03/2014 00:00:46] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:00:46] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{removeFolder}: The source folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] does not exist
+[10/03/2014 00:00:46] | [INFO] Saving the current configuration...
+[10/03/2014 00:00:46] | [INFO] Current configurations saved
+[10/03/2014 00:00:46] | *** LOGGER CLOSED ***
+[10/03/2014 00:00:57] | *** LOGGER STARTED ***
+[10/03/2014 00:00:57] | [WARNING] fr.nemolovich.apps.securefolder.config.ConfigUtils{Constructor}: C:\Users\COMPUMONSTER\git\secureFodler.ini
+[10/03/2014 00:00:57] | [INFO] Configurations loaded
+[10/03/2014 00:00:57] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:00:57] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:00:57] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:00:57] | [ERROR] fr.nemolovich.apps.securefolder.config.ConfigUtils{getProperty}: Can not found properties 'batchs.folder'
+[10/03/2014 00:03:09] | *** LOGGER STARTED ***
+[10/03/2014 00:03:09] | [WARNING] fr.nemolovich.apps.securefolder.config.ConfigUtils{Constructor}: C:\Users\COMPUMONSTER\git\secureFodler.ini
+[10/03/2014 00:03:09] | [INFO] Configurations loaded
+[10/03/2014 00:03:09] | [ERROR] fr.nemolovich.apps.securefolder.command.CommandLine{execute}: Please specify options
+[10/03/2014 00:03:09] | [INFO] Saving the current configuration...
+[10/03/2014 00:03:09] | [INFO] Current configurations saved
+[10/03/2014 00:03:09] | *** LOGGER CLOSED ***
+[10/03/2014 00:03:49] | *** LOGGER STARTED ***
+[10/03/2014 00:03:49] | [WARNING] fr.nemolovich.apps.securefolder.config.ConfigUtils{Constructor}: C:\Users\COMPUMONSTER\git\secureFodler.ini
+[10/03/2014 00:03:49] | [ERROR] fr.nemolovich.apps.securefolder.config.ConfigUtils{Constructor}: Can not found properties file ['C:\Users\COMPUMONSTER\git\secureFodler.ini']
+[10/03/2014 00:03:49] | [INFO] Creating new configurations file...
+[10/03/2014 00:03:49] | [INFO] Saving the current configuration...
+[10/03/2014 00:03:49] | [INFO] Current configurations saved
+[10/03/2014 00:03:49] | [INFO] Configurations loaded
+[10/03/2014 00:03:49] | [ERROR] fr.nemolovich.apps.securefolder.command.CommandLine{execute}: Please specify options
+[10/03/2014 00:03:49] | [INFO] Saving the current configuration...
+[10/03/2014 00:03:49] | [INFO] Current configurations saved
+[10/03/2014 00:03:49] | *** LOGGER CLOSED ***
+[10/03/2014 00:04:23] | *** LOGGER STARTED ***
+[10/03/2014 00:04:23] | [INFO] Configurations loaded
+[10/03/2014 00:04:23] | [ERROR] fr.nemolovich.apps.securefolder.command.CommandLine{execute}: Please specify options
+[10/03/2014 00:04:23] | [INFO] Saving the current configuration...
+[10/03/2014 00:04:23] | [INFO] Current configurations saved
+[10/03/2014 00:04:23] | *** LOGGER CLOSED ***
+[10/03/2014 00:04:27] | *** LOGGER STARTED ***
+[10/03/2014 00:04:27] | [INFO] Configurations loaded
+[10/03/2014 00:04:27] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:04:27] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{removeFolder}: The source folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] does not exist
+[10/03/2014 00:04:27] | [INFO] Saving the current configuration...
+[10/03/2014 00:04:27] | [INFO] Current configurations saved
+[10/03/2014 00:04:27] | *** LOGGER CLOSED ***
+[10/03/2014 00:04:36] | *** LOGGER STARTED ***
+[10/03/2014 00:04:36] | [INFO] Configurations loaded
+[10/03/2014 00:04:36] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:04:36] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:04:36] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:04:36] | [INFO] Operating System is: windows 7
+[10/03/2014 00:04:36] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:04:36] | [INFO] Saving the current configuration...
+[10/03/2014 00:04:36] | [INFO] Current configurations saved
+[10/03/2014 00:04:36] | *** LOGGER CLOSED ***
+[10/03/2014 00:05:32] | *** LOGGER STARTED ***
+[10/03/2014 00:05:32] | [INFO] Configurations loaded
+[10/03/2014 00:05:32] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:05:32] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:05:32] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:05:32] | [INFO] Operating System is: windows 7
+[10/03/2014 00:05:32] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:05:32] | [INFO] Saving the current configuration...
+[10/03/2014 00:05:32] | [INFO] Current configurations saved
+[10/03/2014 00:05:32] | *** LOGGER CLOSED ***
+[10/03/2014 00:06:43] | *** LOGGER STARTED ***
+[10/03/2014 00:06:43] | [INFO] Configurations loaded
+[10/03/2014 00:06:43] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:06:43] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:06:43] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:06:43] | [INFO] Operating System is: windows 7
+[10/03/2014 00:06:43] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:06:43] | [INFO] Saving the current configuration...
+[10/03/2014 00:06:43] | [INFO] Current configurations saved
+[10/03/2014 00:06:43] | *** LOGGER CLOSED ***
+[10/03/2014 00:08:23] | *** LOGGER STARTED ***
+[10/03/2014 00:08:23] | [INFO] Configurations loaded
+[10/03/2014 00:08:23] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:08:23] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:08:23] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:08:23] | [INFO] Operating System is: windows 7
+[10/03/2014 00:08:34] | *** LOGGER STARTED ***
+[10/03/2014 00:08:34] | [INFO] Configurations loaded
+[10/03/2014 00:08:35] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:08:35] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:08:35] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:08:35] | [INFO] Operating System is: windows 7
+[10/03/2014 00:08:35] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:08:35] | [INFO] Saving the current configuration...
+[10/03/2014 00:08:35] | [INFO] Current configurations saved
+[10/03/2014 00:08:35] | *** LOGGER CLOSED ***
+[10/03/2014 00:08:54] | *** LOGGER STARTED ***
+[10/03/2014 00:08:54] | [INFO] Configurations loaded
+[10/03/2014 00:08:54] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:08:54] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:08:54] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:08:54] | [INFO] Operating System is: windows 7
+[10/03/2014 00:08:54] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:08:54] | [INFO] Saving the current configuration...
+[10/03/2014 00:08:54] | [INFO] Current configurations saved
+[10/03/2014 00:08:54] | *** LOGGER CLOSED ***
+[10/03/2014 00:10:26] | *** LOGGER STARTED ***
+[10/03/2014 00:10:26] | [INFO] Configurations loaded
+[10/03/2014 00:10:26] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:10:26] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:10:27] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:10:27] | [INFO] Operating System is: windows 7
+[10/03/2014 00:10:27] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:10:27] | [INFO] Saving the current configuration...
+[10/03/2014 00:10:27] | [INFO] Current configurations saved
+[10/03/2014 00:10:27] | *** LOGGER CLOSED ***
+[10/03/2014 00:10:51] | *** LOGGER STARTED ***
+[10/03/2014 00:10:51] | [INFO] Configurations loaded
+[10/03/2014 00:10:51] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:10:51] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:10:51] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:10:51] | [INFO] Operating System is: windows 7
+[10/03/2014 00:10:51] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[10/03/2014 00:10:51] | [INFO] Saving the current configuration...
+[10/03/2014 00:10:51] | [INFO] Current configurations saved
+[10/03/2014 00:10:51] | *** LOGGER CLOSED ***
+[10/03/2014 00:11:18] | *** LOGGER STARTED ***
+[10/03/2014 00:11:18] | [INFO] Configurations loaded
+[10/03/2014 00:11:18] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:11:18] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:11:18] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:11:18] | [INFO] Operating System is: windows 7
+[10/03/2014 00:11:18] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchswin.properties']
+[10/03/2014 00:11:18] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: The properties file can not be found
+[10/03/2014 00:11:18] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:12:09] | *** LOGGER STARTED ***
+[10/03/2014 00:12:10] | [INFO] Configurations loaded
+[10/03/2014 00:12:10] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:12:10] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:12:10] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:12:10] | [INFO] Operating System is: windows 7
+[10/03/2014 00:12:10] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchswin.properties']
+[10/03/2014 00:12:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: The properties file can not be found
+[10/03/2014 00:12:10] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:12:41] | *** LOGGER STARTED ***
+[10/03/2014 00:12:41] | [INFO] Configurations loaded
+[10/03/2014 00:12:41] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:12:41] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:12:42] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:12:42] | [INFO] Operating System is: windows 7
+[10/03/2014 00:12:42] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchswin.properties']
+[10/03/2014 00:12:42] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: The properties file can not be found
+[10/03/2014 00:12:42] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:13:00] | *** LOGGER STARTED ***
+[10/03/2014 00:13:00] | [INFO] Configurations loaded
+[10/03/2014 00:13:00] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:13:00] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:13:01] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:13:01] | [INFO] Operating System is: windows 7
+[10/03/2014 00:13:01] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:13:01] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:13:01] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:13:01] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:13:01] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:13:01] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:13:01] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:13:01] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:13:01] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:13:01] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:13:01] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:13:01] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:13:01] | [INFO] Saving the current configuration...
+[10/03/2014 00:13:01] | [INFO] Current configurations saved
+[10/03/2014 00:13:01] | *** LOGGER CLOSED ***
+[10/03/2014 00:13:11] | *** LOGGER STARTED ***
+[10/03/2014 00:13:11] | [INFO] Configurations loaded
+[10/03/2014 00:13:11] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:13:11] | [INFO] Saving the current configuration...
+[10/03/2014 00:13:11] | [INFO] Current configurations saved
+[10/03/2014 00:13:11] | *** LOGGER CLOSED ***
+[10/03/2014 00:15:23] | *** LOGGER STARTED ***
+[10/03/2014 00:15:23] | [INFO] Configurations loaded
+[10/03/2014 00:15:23] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:15:23] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{removeFolder}: The source folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] does not exist
+[10/03/2014 00:15:23] | [INFO] Saving the current configuration...
+[10/03/2014 00:15:23] | [INFO] Current configurations saved
+[10/03/2014 00:15:23] | *** LOGGER CLOSED ***
+[10/03/2014 00:15:34] | *** LOGGER STARTED ***
+[10/03/2014 00:15:34] | [INFO] Configurations loaded
+[10/03/2014 00:15:34] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:15:34] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{removeFolder}: The source folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] does not exist
+[10/03/2014 00:15:34] | [INFO] Saving the current configuration...
+[10/03/2014 00:15:34] | [INFO] Current configurations saved
+[10/03/2014 00:15:34] | *** LOGGER CLOSED ***
+[10/03/2014 00:15:43] | *** LOGGER STARTED ***
+[10/03/2014 00:15:43] | [INFO] Configurations loaded
+[10/03/2014 00:15:43] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:15:43] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{removeFolder}: The source folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test'] does not exist
+[10/03/2014 00:15:43] | [INFO] Saving the current configuration...
+[10/03/2014 00:15:43] | [INFO] Current configurations saved
+[10/03/2014 00:15:43] | *** LOGGER CLOSED ***
+[10/03/2014 00:15:54] | *** LOGGER STARTED ***
+[10/03/2014 00:15:54] | [INFO] Configurations loaded
+[10/03/2014 00:15:54] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:15:54] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:15:54] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:15:54] | [INFO] Operating System is: windows 7
+[10/03/2014 00:15:54] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:15:54] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:15:54] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:15:54] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:15:54] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:15:54] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:15:54] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:15:54] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:15:54] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:15:54] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:15:54] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:15:54] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:15:54] | [INFO] Saving the current configuration...
+[10/03/2014 00:15:54] | [INFO] Current configurations saved
+[10/03/2014 00:15:54] | *** LOGGER CLOSED ***
+[10/03/2014 00:15:57] | *** LOGGER STARTED ***
+[10/03/2014 00:15:57] | [INFO] Configurations loaded
+[10/03/2014 00:15:57] | [INFO] Removing folder ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test']
+[10/03/2014 00:15:57] | [INFO] Saving the current configuration...
+[10/03/2014 00:15:57] | [INFO] Current configurations saved
+[10/03/2014 00:15:57] | *** LOGGER CLOSED ***
+[10/03/2014 00:18:07] | *** LOGGER STARTED ***
+[10/03/2014 00:18:07] | [INFO] Configurations loaded
+[10/03/2014 00:18:07] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:18:07] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:18:08] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:18:08] | [INFO] Operating System is: windows 7
+[10/03/2014 00:18:08] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:18:08] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:18:08] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:18:08] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:18:08] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:18:08] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:18:08] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:18:08] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:18:08] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:18:08] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:18:08] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:18:08] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:18:08] | [INFO] Saving the current configuration...
+[10/03/2014 00:18:08] | [INFO] Current configurations saved
+[10/03/2014 00:18:08] | *** LOGGER CLOSED ***
+[10/03/2014 00:30:43] | *** LOGGER STARTED ***
+[10/03/2014 00:30:43] | [INFO] Configurations loaded
+[10/03/2014 00:30:43] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:30:43] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:30:43] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:30:43] | [INFO] Operating System is: windows 7
+[10/03/2014 00:30:43] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:30:43] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:30:43] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:30:43] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:30:43] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:30:43] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:30:43] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:30:43] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:30:43] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:30:43] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:30:43] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:30:43] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:30:43] | [INFO] Saving the current configuration...
+[10/03/2014 00:30:43] | [INFO] Current configurations saved
+[10/03/2014 00:30:43] | *** LOGGER CLOSED ***
+[10/03/2014 00:31:21] | *** LOGGER STARTED ***
+[10/03/2014 00:31:21] | [INFO] Configurations loaded
+[10/03/2014 00:31:21] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:31:21] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:31:21] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:31:21] | [INFO] Operating System is: windows 7
+[10/03/2014 00:31:21] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:31:21] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:31:21] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:31:21] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:31:21] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:31:21] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:31:21] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:31:21] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:31:21] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:31:21] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:31:21] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:31:21] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:31:21] | [INFO] Saving the current configuration...
+[10/03/2014 00:31:21] | [INFO] Current configurations saved
+[10/03/2014 00:31:21] | *** LOGGER CLOSED ***
+[10/03/2014 00:31:37] | *** LOGGER STARTED ***
+[10/03/2014 00:31:37] | [INFO] Configurations loaded
+[10/03/2014 00:31:37] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:31:37] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:31:37] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:31:37] | [INFO] Operating System is: windows 7
+[10/03/2014 00:31:37] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:31:37] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:31:37] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:31:37] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:31:37] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:31:37] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:31:37] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:31:37] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:31:37] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:31:37] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:31:37] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:31:37] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:31:37] | [INFO] Saving the current configuration...
+[10/03/2014 00:31:37] | [INFO] Current configurations saved
+[10/03/2014 00:31:37] | *** LOGGER CLOSED ***
+[10/03/2014 00:31:44] | *** LOGGER STARTED ***
+[10/03/2014 00:31:44] | [INFO] Configurations loaded
+[10/03/2014 00:31:44] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:31:44] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:31:44] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:31:44] | [INFO] Operating System is: windows 7
+[10/03/2014 00:31:44] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:31:44] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:31:44] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:31:44] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:31:44] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:31:44] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:31:44] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:31:44] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:31:44] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:31:44] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:31:44] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:31:44] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:31:44] | [INFO] Saving the current configuration...
+[10/03/2014 00:31:44] | [INFO] Current configurations saved
+[10/03/2014 00:31:44] | *** LOGGER CLOSED ***
+[10/03/2014 00:32:09] | *** LOGGER STARTED ***
+[10/03/2014 00:32:09] | [INFO] Configurations loaded
+[10/03/2014 00:32:09] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:32:09] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:32:09] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:32:09] | [INFO] Operating System is: windows 7
+[10/03/2014 00:32:09] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:32:09] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:32:09] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:32:09] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:32:09] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:32:09] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:32:09] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:32:09] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:32:09] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:32:09] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:32:09] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:32:09] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:32:09] | [INFO] Saving the current configuration...
+[10/03/2014 00:32:09] | [INFO] Current configurations saved
+[10/03/2014 00:32:09] | *** LOGGER CLOSED ***
+[10/03/2014 00:32:32] | *** LOGGER STARTED ***
+[10/03/2014 00:32:32] | [INFO] Configurations loaded
+[10/03/2014 00:32:32] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:32:32] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:32:32] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:32:32] | [INFO] Operating System is: windows 7
+[10/03/2014 00:32:32] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:32:32] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:32:32] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:32:32] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:32:32] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:32:32] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:32:32] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:32:32] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:32:32] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:32:32] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:32:32] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:32:32] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:32:32] | [INFO] Saving the current configuration...
+[10/03/2014 00:32:32] | [INFO] Current configurations saved
+[10/03/2014 00:32:32] | *** LOGGER CLOSED ***
+[10/03/2014 00:36:19] | *** LOGGER STARTED ***
+[10/03/2014 00:36:19] | [INFO] Configurations loaded
+[10/03/2014 00:36:19] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:36:19] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:36:19] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:36:19] | [INFO] Operating System is: windows 7
+[10/03/2014 00:36:19] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:36:19] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:36:19] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:36:19] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:36:19] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:36:19] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:36:19] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:36:19] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:36:19] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:36:19] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:36:19] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:36:19] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:36:19] | [INFO] Saving the current configuration...
+[10/03/2014 00:36:19] | [INFO] Current configurations saved
+[10/03/2014 00:36:19] | *** LOGGER CLOSED ***
+[10/03/2014 00:36:50] | *** LOGGER STARTED ***
+[10/03/2014 00:36:50] | [INFO] Configurations loaded
+[10/03/2014 00:36:50] | [INFO] Operating System is: windows 7
+[10/03/2014 00:36:50] | [INFO] Properties file to use: ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties']
+[10/03/2014 00:36:50] | [INFO] Properties file ['C:\Users\COMPUMONSTER\git\SecureFolder\target\classes\batchs\win.properties'] loaded
+[10/03/2014 00:36:51] | [INFO] Configuring password for encrypted zipped file
+[10/03/2014 00:36:51] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']...
+[10/03/2014 00:36:51] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock']
+[10/03/2014 00:36:51] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:36:51] | [INFO] Looking for command key: file.hideFile
+[10/03/2014 00:36:51] | [INFO] Command found: attrib +s +h %1%%2%
+[10/03/2014 00:36:51] | [INFO] Applying parameters: [C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\, .Test.encrypted]
+[10/03/2014 00:36:51] | [INFO] Final Command: attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted
+[10/03/2014 00:36:51] | [INFO] Executing command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:36:51] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted'
+[10/03/2014 00:36:51] | [INFO] Command 'attrib +s +h C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[10/03/2014 00:36:51] | [INFO] Extracting files from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']...
+[10/03/2014 00:36:51] | [INFO] Files extracted from ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\.Test.encrypted']
+[10/03/2014 00:36:51] | [INFO] Saving the current configuration...
+[10/03/2014 00:36:51] | [INFO] Current configurations saved
+[10/03/2014 00:36:51] | *** LOGGER CLOSED ***
+[07/04/2014 20:27:22] | *** LOGGER STARTED ***
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 20:27:22] | [INFO] Executing command 'notExist'
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 20:27:22] | [INFO] Executing command 'dir'
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolder' does not exists
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{getFolderContent}: File not found: ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test']
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolder' does not exists
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\COMPUMONSTER\Desktop\SecureFolder' does not exists
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unzipFile}: The file to unzip does not exist
+[07/04/2014 20:27:22] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\COMPUMONSTER\Desktop\SecureFolder\Test.sflock'] is not a valid file
+[07/04/2014 20:27:22] | *** LOGGER CLOSED ***
+[07/04/2014 20:28:10] | *** LOGGER STARTED ***
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 20:28:10] | [INFO] Executing command 'notExist'
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 20:28:10] | [INFO] Executing command 'dir'
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{getFolderContent}: File not found: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 20:28:10] | [INFO] Configurations loaded
+[07/04/2014 20:28:10] | [INFO] Operating System is: windows 7
+[07/04/2014 20:28:10] | [INFO] Start to zip files
+[07/04/2014 20:28:10] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 20:28:10] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 20:28:10] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 20:28:10] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 20:28:10] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 20:28:10] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 20:28:10] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 20:28:10] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 20:28:10] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 20:28:10] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 20:28:10] | *** LOGGER CLOSED ***
+[07/04/2014 20:29:17] | *** LOGGER STARTED ***
+[07/04/2014 20:29:17] | [INFO] Configurations loaded
+[07/04/2014 20:29:17] | [INFO] Operating System is: windows 7
+[07/04/2014 20:31:28] | *** LOGGER STARTED ***
+[07/04/2014 20:31:28] | [INFO] Configurations loaded
+[07/04/2014 20:31:28] | [INFO] Operating System is: windows 7
+[07/04/2014 20:32:09] | [INFO] Operating System is: windows 7
+[07/04/2014 20:33:17] | *** LOGGER STARTED ***
+[07/04/2014 20:33:17] | [INFO] Configurations loaded
+[07/04/2014 20:33:17] | [INFO] Operating System is: windows 7
+[07/04/2014 20:33:33] | *** LOGGER STARTED ***
+[07/04/2014 20:33:33] | [INFO] Configurations loaded
+[07/04/2014 20:33:33] | [INFO] Operating System is: windows 7
+[07/04/2014 20:50:18] | *** LOGGER STARTED ***
+[07/04/2014 20:50:18] | [INFO] Configurations loaded
+[07/04/2014 20:50:18] | [INFO] Operating System is: windows 7
+[07/04/2014 20:52:19] | *** LOGGER STARTED ***
+[07/04/2014 20:52:19] | [INFO] Configurations loaded
+[07/04/2014 20:52:19] | [INFO] Operating System is: windows 7
+[07/04/2014 20:52:43] | *** LOGGER STARTED ***
+[07/04/2014 20:52:43] | [INFO] Configurations loaded
+[07/04/2014 20:52:43] | [INFO] Operating System is: windows 7
+[07/04/2014 20:53:52] | *** LOGGER STARTED ***
+[07/04/2014 20:53:52] | [INFO] Configurations loaded
+[07/04/2014 20:53:52] | [INFO] Operating System is: windows 7
+[07/04/2014 20:54:54] | *** LOGGER STARTED ***
+[07/04/2014 20:54:54] | [ERROR] fr.nemolovich.apps.securefolder.config.ConfigUtils{Constructor}: Can not found properties file ['C:\Users\Nemolovich\git\secureFodler.ini']
+[07/04/2014 20:54:54] | [INFO] Creating new configurations file...
+[07/04/2014 20:54:54] | [INFO] Saving the current configuration...
+[07/04/2014 20:54:54] | [INFO] Current configurations saved
+[07/04/2014 20:54:54] | [INFO] Configurations loaded
+[07/04/2014 20:54:54] | [INFO] Operating System is: windows 7
+[07/04/2014 20:55:22] | *** LOGGER STARTED ***
+[07/04/2014 20:55:22] | [INFO] Configurations loaded
+[07/04/2014 20:55:22] | [INFO] Operating System is: windows 7
+[07/04/2014 20:56:18] | *** LOGGER STARTED ***
+[07/04/2014 20:56:18] | [INFO] Configurations loaded
+[07/04/2014 20:56:18] | [INFO] Operating System is: windows 7
+[07/04/2014 20:56:29] | *** LOGGER STARTED ***
+[07/04/2014 20:56:29] | [INFO] Configurations loaded
+[07/04/2014 20:56:29] | [INFO] Operating System is: windows 7
+[07/04/2014 20:56:29] | [INFO] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:56:47] | *** LOGGER STARTED ***
+[07/04/2014 20:56:47] | [INFO] Configurations loaded
+[07/04/2014 20:56:47] | [INFO] Operating System is: windows 7
+[07/04/2014 20:56:47] | fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:57:06] | *** LOGGER STARTED ***
+[07/04/2014 20:57:06] | [INFO] Configurations loaded
+[07/04/2014 20:57:06] | [INFO] Operating System is: windows 7
+[07/04/2014 20:57:06] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:57:35] | *** LOGGER STARTED ***
+[07/04/2014 20:57:35] | [INFO] Configurations loaded
+[07/04/2014 20:57:35] | [INFO] Operating System is: windows 7
+[07/04/2014 20:57:35] | [INFO] Loading config file: ['src/main/resources/batchs\batchs.ini']
+[07/04/2014 20:58:16] | *** LOGGER STARTED ***
+[07/04/2014 20:58:16] | [INFO] Configurations loaded
+[07/04/2014 20:58:16] | [INFO] Operating System is: windows 7
+[07/04/2014 20:58:16] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:58:34] | *** LOGGER STARTED ***
+[07/04/2014 20:58:34] | [INFO] Configurations loaded
+[07/04/2014 20:58:34] | [INFO] Operating System is: windows 7
+[07/04/2014 20:58:34] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:58:48] | *** LOGGER STARTED ***
+[07/04/2014 20:58:48] | [INFO] Configurations loaded
+[07/04/2014 20:58:48] | [INFO] Operating System is: windows 7
+[07/04/2014 20:58:48] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:59:29] | *** LOGGER STARTED ***
+[07/04/2014 20:59:29] | [INFO] Configurations loaded
+[07/04/2014 20:59:29] | [INFO] Operating System is: windows 7
+[07/04/2014 20:59:29] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 20:59:35] | *** LOGGER STARTED ***
+[07/04/2014 20:59:35] | [INFO] Configurations loaded
+[07/04/2014 20:59:35] | [INFO] Operating System is: windows 7
+[07/04/2014 20:59:35] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:00:12] | *** LOGGER STARTED ***
+[07/04/2014 21:00:12] | [INFO] Configurations loaded
+[07/04/2014 21:00:12] | [INFO] Operating System is: windows 7
+[07/04/2014 21:00:12] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:00:17] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Resources path does not exist
+[07/04/2014 21:00:17] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{<init>}: Can not initialize BatchUtils
+[07/04/2014 21:00:17] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock'] is not a valid file
+[07/04/2014 21:00:17] | [INFO] Saving the current configuration...
+[07/04/2014 21:00:17] | [INFO] Current configurations saved
+[07/04/2014 21:00:17] | *** LOGGER CLOSED ***
+[07/04/2014 21:35:57] | *** LOGGER STARTED ***
+[07/04/2014 21:35:57] | [INFO] Configurations loaded
+[07/04/2014 21:35:57] | [INFO] Operating System is: windows 7
+[07/04/2014 21:35:57] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:36:03] | *** LOGGER STARTED ***
+[07/04/2014 21:36:03] | [INFO] Configurations loaded
+[07/04/2014 21:36:03] | [INFO] Operating System is: windows 7
+[07/04/2014 21:36:03] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:36:44] | *** LOGGER STARTED ***
+[07/04/2014 21:36:44] | [INFO] Configurations loaded
+[07/04/2014 21:36:44] | [INFO] Operating System is: windows 7
+[07/04/2014 21:36:44] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:37:27] | [INFO] Operating System is: windows 7
+[07/04/2014 21:37:27] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:38:02] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Could not load Operating System properties file
+[07/04/2014 21:38:10] | *** LOGGER STARTED ***
+[07/04/2014 21:38:10] | [INFO] Configurations loaded
+[07/04/2014 21:38:10] | [INFO] Operating System is: windows 7
+[07/04/2014 21:38:10] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:39:08] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchUtils{init}: Could not load Operating System properties file
+[07/04/2014 21:40:47] | *** LOGGER STARTED ***
+[07/04/2014 21:40:47] | [INFO] Configurations loaded
+[07/04/2014 21:40:47] | [INFO] Operating System is: windows 7
+[07/04/2014 21:40:47] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:41:13] | [INFO] Operating System is: windows 7
+[07/04/2014 21:41:13] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:41:35] | [INFO] Operating System is: windows 7
+[07/04/2014 21:41:35] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:41:49] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:41:53] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:41:56] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\COMPUMONSTER\Desktop\SecureFolderBack\Test.sflock'] is not a valid file
+[07/04/2014 21:41:56] | [INFO] Saving the current configuration...
+[07/04/2014 21:41:56] | [INFO] Current configurations saved
+[07/04/2014 21:41:56] | *** LOGGER CLOSED ***
+[07/04/2014 21:42:42] | *** LOGGER STARTED ***
+[07/04/2014 21:42:42] | [INFO] Configurations loaded
+[07/04/2014 21:42:42] | [INFO] Operating System is: windows 7
+[07/04/2014 21:42:42] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:42:42] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:42:42] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:42:42] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:42:42] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[07/04/2014 21:42:42] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[07/04/2014 21:42:42] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 21:42:42] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:42:42] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:42:42] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 21:42:42] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 21:42:42] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 21:42:42] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 21:42:42] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 21:42:42] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']...
+[07/04/2014 21:42:42] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']
+[07/04/2014 21:42:42] | [INFO] Saving the current configuration...
+[07/04/2014 21:42:42] | [INFO] Current configurations saved
+[07/04/2014 21:42:42] | *** LOGGER CLOSED ***
+[07/04/2014 21:43:26] | *** LOGGER STARTED ***
+[07/04/2014 21:43:26] | [INFO] Configurations loaded
+[07/04/2014 21:43:26] | [INFO] Operating System is: windows 7
+[07/04/2014 21:43:26] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:43:26] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:43:26] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:43:26] | [INFO] Removing folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 21:43:26] | [INFO] Saving the current configuration...
+[07/04/2014 21:43:26] | [INFO] Current configurations saved
+[07/04/2014 21:43:26] | *** LOGGER CLOSED ***
+[07/04/2014 21:48:22] | *** LOGGER STARTED ***
+[07/04/2014 21:48:22] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:48:22] | [INFO] Executing command 'notExist'
+[07/04/2014 21:48:22] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:48:22] | [INFO] Executing command 'dir'
+[07/04/2014 21:48:22] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 21:48:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:48:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:48:22] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{getFolderContent}: File not found: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:48:22] | [INFO] Configurations loaded
+[07/04/2014 21:48:22] | [INFO] Operating System is: windows 7
+[07/04/2014 21:48:22] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:48:28] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:48:28] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:48:28] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:48:28] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:48:28] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:48:28] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:48:28] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:48:28] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:48:28] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:48:28] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:48:28] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:48:28] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:48:28] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:48:28] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:48:28] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:48:28] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:48:28] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:48:28] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:48:28] | [INFO] Start to zip files
+[07/04/2014 21:48:28] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:48:28] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:48:28] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:48:28] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:48:28] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:48:28] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:48:28] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:48:28] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:48:28] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock'] is not a valid file
+[07/04/2014 21:48:28] | *** LOGGER CLOSED ***
+[07/04/2014 21:49:22] | *** LOGGER STARTED ***
+[07/04/2014 21:49:22] | [INFO] Configurations loaded
+[07/04/2014 21:49:22] | [INFO] Operating System is: windows 7
+[07/04/2014 21:49:22] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:49:22] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:49:22] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:49:22] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:49:22] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[07/04/2014 21:49:23] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[07/04/2014 21:49:23] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 21:49:23] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:49:23] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:49:23] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 21:49:23] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 21:49:23] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 21:49:23] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 21:49:23] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 21:49:23] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']...
+[07/04/2014 21:49:23] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']
+[07/04/2014 21:49:23] | [INFO] Saving the current configuration...
+[07/04/2014 21:49:23] | [INFO] Current configurations saved
+[07/04/2014 21:49:23] | *** LOGGER CLOSED ***
+[07/04/2014 21:49:34] | *** LOGGER STARTED ***
+[07/04/2014 21:49:34] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:49:34] | [INFO] Executing command 'notExist'
+[07/04/2014 21:49:34] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:49:34] | [INFO] Executing command 'dir'
+[07/04/2014 21:49:34] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 21:49:34] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:49:34] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:49:34] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:49:34] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:49:34] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:49:34] | [INFO] Configurations loaded
+[07/04/2014 21:49:34] | [INFO] Operating System is: windows 7
+[07/04/2014 21:49:34] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:49:34] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:49:34] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:49:34] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:49:34] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:49:34] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:49:34] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:49:34] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:49:34] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:49:34] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:49:34] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:49:34] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:49:34] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:49:34] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:49:34] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:49:34] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:49:34] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:49:34] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:49:34] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:49:34] | [INFO] Start to zip files
+[07/04/2014 21:49:34] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:49:34] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:49:34] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:49:35] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:49:35] | [INFO] Start to zip files
+[07/04/2014 21:49:35] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:49:35] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:49:35] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:49:35] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:49:35] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:49:35] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:49:35] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:49:35] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:49:35] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:49:35] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:49:35] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:49:35] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:49:35] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:49:35] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:49:35] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:49:35] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:49:35] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:49:35] | [INFO] Start to zip files
+[07/04/2014 21:49:35] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:49:35] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:49:35] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:49:35] | [INFO] Removing temporary files
+[07/04/2014 21:49:35] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:49:35] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:49:35] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:49:35] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:49:35] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:49:35] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:49:35] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:49:35] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:49:35] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:49:35] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:49:35] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:49:35] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:49:35] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:49:35] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:49:35] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:49:35] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:49:35] | *** LOGGER CLOSED ***
+[07/04/2014 21:50:10] | *** LOGGER STARTED ***
+[07/04/2014 21:50:13] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:50:27] | [INFO] Executing command 'notExist'
+[07/04/2014 21:50:27] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:50:32] | [INFO] Executing command 'dir'
+[07/04/2014 21:50:37] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:50:37] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:50:37] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:50:37] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:50:37] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:50:37] | [INFO] Configurations loaded
+[07/04/2014 21:50:37] | [INFO] Operating System is: windows 7
+[07/04/2014 21:50:37] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:50:37] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:50:37] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:50:37] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:50:37] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:50:37] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:50:37] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:50:37] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:50:56] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 21:51:10] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:51:10] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:51:10] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:51:10] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:51:10] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:51:10] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:51:10] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:51:10] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:51:12] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:51:12] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:51:12] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:51:12] | [INFO] Start to zip files
+[07/04/2014 21:51:12] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:51:12] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:51:12] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:51:12] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:51:12] | [INFO] Start to zip files
+[07/04/2014 21:51:12] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:51:12] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:51:12] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:51:12] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:51:12] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:51:12] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:51:12] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:51:12] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:51:12] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:51:12] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:51:12] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:51:12] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:51:12] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:51:12] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:51:13] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:51:13] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:51:13] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:51:13] | [INFO] Start to zip files
+[07/04/2014 21:51:13] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:51:13] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:51:13] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:51:13] | [INFO] Removing temporary files
+[07/04/2014 21:51:13] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:51:13] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:51:13] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:51:13] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:51:13] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:51:13] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:51:13] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:51:13] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:51:13] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:51:13] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:51:13] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:51:14] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:51:14] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:51:14] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:51:14] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:51:14] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:51:14] | *** LOGGER CLOSED ***
+[07/04/2014 21:51:38] | *** LOGGER STARTED ***
+[07/04/2014 21:51:38] | [INFO] Configurations loaded
+[07/04/2014 21:51:38] | [INFO] Operating System is: windows 7
+[07/04/2014 21:51:38] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:51:38] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:51:38] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:51:38] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:51:38] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[07/04/2014 21:51:39] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[07/04/2014 21:51:39] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 21:51:39] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:51:39] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:51:39] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 21:51:39] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 21:51:45] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 21:51:45] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 21:51:45] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 21:51:45] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']...
+[07/04/2014 21:51:45] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']
+[07/04/2014 21:51:45] | [INFO] Saving the current configuration...
+[07/04/2014 21:51:45] | [INFO] Current configurations saved
+[07/04/2014 21:51:45] | *** LOGGER CLOSED ***
+[07/04/2014 21:51:51] | *** LOGGER STARTED ***
+[07/04/2014 21:51:51] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:52:03] | [INFO] Executing command 'notExist'
+[07/04/2014 21:52:03] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:52:11] | [INFO] Executing command 'dir'
+[07/04/2014 21:52:13] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:52:13] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:52:13] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:52:13] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:52:13] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:52:13] | [INFO] Configurations loaded
+[07/04/2014 21:52:13] | [INFO] Operating System is: windows 7
+[07/04/2014 21:52:13] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:52:13] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:52:13] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:52:13] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:52:13] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:52:13] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:52:13] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:52:13] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:52:35] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 21:52:36] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:52:36] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:52:36] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:52:36] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:52:36] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:52:36] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:52:36] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:52:36] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:52:37] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:52:37] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:52:37] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:52:37] | [INFO] Start to zip files
+[07/04/2014 21:52:37] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:52:37] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:52:37] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:52:37] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:52:37] | [INFO] Start to zip files
+[07/04/2014 21:52:37] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:52:37] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:52:37] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:52:37] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:52:37] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:52:37] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:52:37] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:52:37] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:52:37] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:52:37] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:52:37] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:52:37] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:52:37] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:52:37] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:52:38] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:52:38] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:52:38] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:52:38] | [INFO] Start to zip files
+[07/04/2014 21:52:38] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:52:38] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:52:38] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:52:38] | [INFO] Removing temporary files
+[07/04/2014 21:52:38] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:52:38] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:52:38] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:52:38] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:52:38] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:52:38] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:52:38] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:52:38] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:52:38] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:52:38] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:52:38] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:52:38] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:52:38] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:52:38] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:52:38] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:52:38] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:52:38] | *** LOGGER CLOSED ***
+[07/04/2014 21:52:50] | *** LOGGER STARTED ***
+[07/04/2014 21:52:50] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:52:52] | [INFO] Executing command 'notExist'
+[07/04/2014 21:52:52] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:52:56] | [INFO] Executing command 'echo test'
+[07/04/2014 21:53:02] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:53:02] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:53:02] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:53:02] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:53:02] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:53:02] | [INFO] Configurations loaded
+[07/04/2014 21:53:02] | [INFO] Operating System is: windows 7
+[07/04/2014 21:53:02] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:53:02] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:53:02] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:53:02] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:53:02] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:02] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:02] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:53:02] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:53:03] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'echo test' can not be executed
+[07/04/2014 21:53:10] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:53:10] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:53:10] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:53:10] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:53:10] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:53:10] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:53:10] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:53:10] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:53:11] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:53:11] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:53:11] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:53:11] | [INFO] Start to zip files
+[07/04/2014 21:53:11] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:53:11] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:53:11] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:53:11] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:53:11] | [INFO] Start to zip files
+[07/04/2014 21:53:11] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:53:11] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:53:11] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:53:11] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:53:11] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:53:11] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:53:11] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:53:11] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:53:11] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:53:11] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:11] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:11] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:11] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:11] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:53:12] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:12] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:12] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:53:12] | [INFO] Start to zip files
+[07/04/2014 21:53:12] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:53:12] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:53:12] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:53:12] | [INFO] Removing temporary files
+[07/04/2014 21:53:12] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:53:12] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:53:12] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:53:12] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:53:12] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:53:12] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:53:12] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:12] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:12] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:12] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:12] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:53:12] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:12] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:12] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:53:12] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:53:12] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:53:12] | *** LOGGER CLOSED ***
+[07/04/2014 21:53:15] | *** LOGGER STARTED ***
+[07/04/2014 21:53:15] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:53:15] | [INFO] Executing command 'notExist'
+[07/04/2014 21:53:15] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:53:15] | [INFO] Executing command 'echo test'
+[07/04/2014 21:53:15] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'echo test' can not be executed
+[07/04/2014 21:53:15] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:53:15] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:53:15] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:53:15] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:53:15] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:53:15] | [INFO] Configurations loaded
+[07/04/2014 21:53:15] | [INFO] Operating System is: windows 7
+[07/04/2014 21:53:15] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:53:15] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:53:15] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:53:15] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:53:15] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:15] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:15] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:53:15] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:53:15] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:53:15] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:53:15] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:53:15] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:53:15] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:53:15] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:53:15] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:53:15] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:53:15] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:53:15] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:53:15] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:53:15] | [INFO] Start to zip files
+[07/04/2014 21:53:15] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:53:15] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:53:15] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:53:15] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:53:15] | [INFO] Start to zip files
+[07/04/2014 21:53:15] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:53:15] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:53:15] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:53:15] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:53:15] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:53:15] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:53:15] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:53:15] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:53:15] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:53:15] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:15] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:15] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:15] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:15] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:53:15] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:15] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:15] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:53:15] | [INFO] Start to zip files
+[07/04/2014 21:53:15] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:53:15] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:53:15] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:53:15] | [INFO] Removing temporary files
+[07/04/2014 21:53:15] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:53:15] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:53:15] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:53:15] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:53:15] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:53:15] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:53:15] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:15] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:15] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:15] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:15] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:53:15] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:15] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:15] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:53:15] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:53:15] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:53:15] | *** LOGGER CLOSED ***
+[07/04/2014 21:53:30] | *** LOGGER STARTED ***
+[07/04/2014 21:53:30] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:53:31] | [INFO] Executing command 'notExist'
+[07/04/2014 21:53:31] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:53:34] | [INFO] Executing command 'echo test'
+[07/04/2014 21:53:41] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'echo test' can not be executed
+[07/04/2014 21:53:46] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:53:46] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:53:46] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:53:46] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:53:46] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:53:46] | [INFO] Configurations loaded
+[07/04/2014 21:53:46] | [INFO] Operating System is: windows 7
+[07/04/2014 21:53:46] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:53:46] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:53:46] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:53:46] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:53:46] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:46] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:46] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:53:46] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:53:48] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:53:48] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:53:48] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:53:48] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:53:48] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:53:48] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:53:48] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:53:48] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:53:49] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:53:49] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:53:49] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:53:49] | [INFO] Start to zip files
+[07/04/2014 21:53:49] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:53:49] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:53:49] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:53:49] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:53:49] | [INFO] Start to zip files
+[07/04/2014 21:53:49] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:53:49] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:53:49] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:53:49] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:53:49] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:53:49] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:53:49] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:53:49] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:53:49] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:53:49] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:49] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:49] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:49] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:49] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:53:49] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:49] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:49] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:53:49] | [INFO] Start to zip files
+[07/04/2014 21:53:49] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:53:49] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:53:49] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:53:49] | [INFO] Removing temporary files
+[07/04/2014 21:53:49] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:53:49] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:53:49] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:53:49] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:53:49] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:53:49] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:53:49] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:49] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:53:49] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:53:49] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:53:49] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:53:50] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:50] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:53:50] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:53:50] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:53:50] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:53:50] | *** LOGGER CLOSED ***
+[07/04/2014 21:55:10] | *** LOGGER STARTED ***
+[07/04/2014 21:55:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 21:55:10] | [INFO] Executing command 'notExist'
+[07/04/2014 21:55:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 21:55:10] | [INFO] Executing command 'dir'
+[07/04/2014 21:55:10] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 21:55:10] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 21:55:10] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 21:55:10] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:55:10] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:55:10] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:55:10] | [INFO] Configurations loaded
+[07/04/2014 21:55:10] | [INFO] Operating System is: windows 7
+[07/04/2014 21:55:10] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 21:55:10] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 21:55:10] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 21:55:10] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:55:10] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:55:10] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:55:10] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 21:55:10] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 21:55:10] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:55:10] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 21:55:10] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 21:55:10] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:55:10] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 21:55:10] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 21:55:10] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 21:55:10] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 21:55:10] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:55:10] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 21:55:10] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 21:55:10] | [INFO] Start to zip files
+[07/04/2014 21:55:10] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 21:55:10] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 21:55:10] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 21:55:10] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 21:55:10] | [INFO] Start to zip files
+[07/04/2014 21:55:10] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 21:55:10] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 21:55:10] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 21:55:10] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 21:55:10] | [INFO] Adding file: ['fileTest']
+[07/04/2014 21:55:10] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 21:55:10] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 21:55:10] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 21:55:10] | [INFO] Adding file: ['folderTest']
+[07/04/2014 21:55:10] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:55:10] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:55:10] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:55:10] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:55:10] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:55:10] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:55:10] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:55:10] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:55:10] | [INFO] Start to zip files
+[07/04/2014 21:55:10] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 21:55:10] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 21:55:10] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 21:55:10] | [INFO] Removing temporary files
+[07/04/2014 21:55:10] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:55:10] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 21:55:10] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 21:55:10] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 21:55:10] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 21:55:10] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 21:55:10] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:55:10] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 21:55:10] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 21:55:10] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 21:55:10] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 21:55:10] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:55:10] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 21:55:10] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 21:55:10] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 21:55:10] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 21:55:10] | *** LOGGER CLOSED ***
+[07/04/2014 23:14:59] | *** LOGGER STARTED ***
+[07/04/2014 23:14:59] | [INFO] Configurations loaded
+[07/04/2014 23:14:59] | [INFO] Operating System is: windows 7
+[07/04/2014 23:14:59] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:14:59] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:14:59] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:14:59] | [ERROR] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Invalid parameters [C:\\Users\\Nemolovich\\Desktop\\SecureFolderBack\\Test]
+[07/04/2014 23:14:59] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[07/04/2014 23:14:59] | [INFO] Saving the current configuration...
+[07/04/2014 23:14:59] | [INFO] Current configurations saved
+[07/04/2014 23:14:59] | *** LOGGER CLOSED ***
+[07/04/2014 23:24:52] | *** LOGGER STARTED ***
+[07/04/2014 23:24:52] | [INFO] Configurations loaded
+[07/04/2014 23:24:52] | [INFO] Operating System is: windows 7
+[07/04/2014 23:24:52] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:24:52] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:24:52] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:24:52] | [ERROR] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Invalid parameters [C:\\Users\\Nemolovich\\Desktop\\SecureFolderBack\\Test]
+[07/04/2014 23:24:52] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[07/04/2014 23:24:52] | [INFO] Saving the current configuration...
+[07/04/2014 23:24:52] | [INFO] Current configurations saved
+[07/04/2014 23:24:52] | *** LOGGER CLOSED ***
+[07/04/2014 23:25:52] | *** LOGGER STARTED ***
+[07/04/2014 23:25:52] | [INFO] Configurations loaded
+[07/04/2014 23:25:52] | [INFO] Operating System is: windows 7
+[07/04/2014 23:25:52] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:25:52] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:25:52] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:25:55] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[07/04/2014 23:25:55] | [INFO] Saving the current configuration...
+[07/04/2014 23:25:55] | [INFO] Current configurations saved
+[07/04/2014 23:25:55] | *** LOGGER CLOSED ***
+[07/04/2014 23:27:31] | *** LOGGER STARTED ***
+[07/04/2014 23:27:31] | [INFO] Configurations loaded
+[07/04/2014 23:27:31] | [INFO] Operating System is: windows 7
+[07/04/2014 23:27:31] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:27:31] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:27:31] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:28:22] | *** LOGGER STARTED ***
+[07/04/2014 23:28:22] | [INFO] Configurations loaded
+[07/04/2014 23:28:22] | [INFO] Operating System is: windows 7
+[07/04/2014 23:28:22] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:28:22] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:28:22] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:28:23] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[07/04/2014 23:28:23] | [INFO] Saving the current configuration...
+[07/04/2014 23:28:23] | [INFO] Current configurations saved
+[07/04/2014 23:28:23] | *** LOGGER CLOSED ***
+[07/04/2014 23:29:08] | *** LOGGER STARTED ***
+[07/04/2014 23:29:08] | [INFO] Configurations loaded
+[07/04/2014 23:29:08] | [INFO] Operating System is: windows 7
+[07/04/2014 23:29:08] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:29:08] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:29:08] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:29:09] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[07/04/2014 23:29:09] | [INFO] Saving the current configuration...
+[07/04/2014 23:29:09] | [INFO] Current configurations saved
+[07/04/2014 23:29:09] | *** LOGGER CLOSED ***
+[07/04/2014 23:29:14] | *** LOGGER STARTED ***
+[07/04/2014 23:29:14] | [INFO] Configurations loaded
+[07/04/2014 23:29:14] | [INFO] Operating System is: windows 7
+[07/04/2014 23:29:14] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:29:14] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:29:14] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:29:18] | [INFO] fr.nemolovich.apps.securefolder.command.option.ZipOption{execute}: Usage: --zip|-z <SOURCE_FOLDER> <PASSWORD>
+[07/04/2014 23:29:18] | [INFO] Saving the current configuration...
+[07/04/2014 23:29:18] | [INFO] Current configurations saved
+[07/04/2014 23:29:18] | *** LOGGER CLOSED ***
+[07/04/2014 23:30:12] | *** LOGGER STARTED ***
+[07/04/2014 23:30:12] | [INFO] Configurations loaded
+[07/04/2014 23:30:12] | [INFO] Operating System is: windows 7
+[07/04/2014 23:30:12] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:30:12] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:30:12] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:30:14] | [INFO] Start to zip files
+[07/04/2014 23:30:14] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:30:14] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:30:14] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:30:14] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:30:14] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:30:14] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:30:14] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:30:14] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:30:14] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:30:14] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:30:14] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:30:14] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:30:14] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:30:14] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:30:14] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:30:14] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:30:14] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:30:14] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The destination file already exists
+[07/04/2014 23:30:14] | [INFO] Removing temporary files
+[07/04/2014 23:30:14] | [INFO] Saving the current configuration...
+[07/04/2014 23:30:14] | [INFO] Current configurations saved
+[07/04/2014 23:30:14] | *** LOGGER CLOSED ***
+[07/04/2014 23:30:52] | *** LOGGER STARTED ***
+[07/04/2014 23:30:52] | [INFO] Configurations loaded
+[07/04/2014 23:30:52] | [INFO] Operating System is: windows 7
+[07/04/2014 23:30:52] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:30:52] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:30:52] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:30:55] | [INFO] Start to zip files
+[07/04/2014 23:30:55] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:30:55] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:30:55] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:30:55] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:30:55] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:30:55] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:30:55] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:30:55] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:30:55] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:30:55] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:30:55] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:30:55] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:30:55] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:30:55] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:30:55] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:30:55] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:30:55] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:30:55] | [INFO] Start to zip files
+[07/04/2014 23:30:55] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[07/04/2014 23:30:55] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:30:55] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:30:55] | [INFO] Removing temporary files
+[07/04/2014 23:30:55] | [INFO] Saving the current configuration...
+[07/04/2014 23:30:55] | [INFO] Current configurations saved
+[07/04/2014 23:30:55] | *** LOGGER CLOSED ***
+[07/04/2014 23:31:17] | *** LOGGER STARTED ***
+[07/04/2014 23:31:17] | [INFO] Configurations loaded
+[07/04/2014 23:31:17] | [INFO] Operating System is: windows 7
+[07/04/2014 23:31:17] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:31:17] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:31:17] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:31:20] | [INFO] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Usage: --unzip|-u <SOURCE_FILE> <PASSWORD>
+[07/04/2014 23:31:20] | [INFO] Saving the current configuration...
+[07/04/2014 23:31:20] | [INFO] Current configurations saved
+[07/04/2014 23:31:20] | *** LOGGER CLOSED ***
+[07/04/2014 23:31:36] | *** LOGGER STARTED ***
+[07/04/2014 23:31:36] | [INFO] Configurations loaded
+[07/04/2014 23:31:36] | [INFO] Operating System is: windows 7
+[07/04/2014 23:31:36] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:31:36] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:31:36] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:31:38] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:31:38] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[07/04/2014 23:31:38] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[07/04/2014 23:31:38] | [INFO] Saving the current configuration...
+[07/04/2014 23:31:38] | [INFO] Current configurations saved
+[07/04/2014 23:31:38] | *** LOGGER CLOSED ***
+[07/04/2014 23:51:37] | *** LOGGER STARTED ***
+[07/04/2014 23:51:37] | [INFO] Configurations loaded
+[07/04/2014 23:51:37] | [INFO] Operating System is: windows 7
+[07/04/2014 23:51:37] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:51:37] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:51:37] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:51:40] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{unsecureFodler}: File ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock'] is not a valid file
+[07/04/2014 23:51:40] | [INFO] Saving the current configuration...
+[07/04/2014 23:51:40] | [INFO] Current configurations saved
+[07/04/2014 23:51:40] | *** LOGGER CLOSED ***
+[07/04/2014 23:52:01] | *** LOGGER STARTED ***
+[07/04/2014 23:52:01] | [INFO] Configurations loaded
+[07/04/2014 23:52:01] | [INFO] Operating System is: windows 7
+[07/04/2014 23:52:01] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:52:01] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:52:01] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:52:04] | [INFO] Start to zip files
+[07/04/2014 23:52:04] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:52:05] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:52:05] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:52:05] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:52:05] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:52:05] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:52:05] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:52:05] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:52:05] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:52:05] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:52:05] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:52:05] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:52:05] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:52:05] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:52:05] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:52:05] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:52:05] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:52:05] | [INFO] Start to zip files
+[07/04/2014 23:52:05] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[07/04/2014 23:52:05] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:52:05] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:52:05] | [INFO] Removing temporary files
+[07/04/2014 23:52:07] | [INFO] Saving the current configuration...
+[07/04/2014 23:52:07] | [INFO] Current configurations saved
+[07/04/2014 23:52:07] | *** LOGGER CLOSED ***
+[07/04/2014 23:53:06] | *** LOGGER STARTED ***
+[07/04/2014 23:53:06] | [INFO] Configurations loaded
+[07/04/2014 23:53:06] | [INFO] Operating System is: windows 7
+[07/04/2014 23:53:06] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:53:06] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:53:06] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:53:09] | [INFO] Start to zip files
+[07/04/2014 23:53:09] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:53:09] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:53:09] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:53:09] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:53:09] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:53:09] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:53:09] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:53:09] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:53:09] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:53:09] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:53:09] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:53:09] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:53:09] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:53:09] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:53:09] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:53:09] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:53:09] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:53:09] | [INFO] Start to zip files
+[07/04/2014 23:53:09] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[07/04/2014 23:53:09] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:53:09] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:53:09] | [INFO] Removing temporary files
+[07/04/2014 23:53:10] | [INFO] Saving the current configuration...
+[07/04/2014 23:53:10] | [INFO] Current configurations saved
+[07/04/2014 23:53:10] | *** LOGGER CLOSED ***
+[07/04/2014 23:53:30] | *** LOGGER STARTED ***
+[07/04/2014 23:53:30] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 23:53:30] | [INFO] Executing command 'notExist'
+[07/04/2014 23:53:30] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 23:53:30] | [INFO] Executing command 'dir'
+[07/04/2014 23:53:30] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 23:53:30] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 23:53:30] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 23:53:30] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 23:53:30] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 23:53:30] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 23:53:30] | [INFO] Configurations loaded
+[07/04/2014 23:53:30] | [INFO] Operating System is: windows 7
+[07/04/2014 23:53:30] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:53:30] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:53:30] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:53:30] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 23:53:30] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:53:30] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:53:30] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 23:53:30] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 23:53:30] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 23:53:30] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 23:53:30] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 23:53:30] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 23:53:30] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 23:53:30] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 23:53:30] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 23:53:30] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 23:53:30] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 23:53:30] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 23:53:30] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 23:53:30] | [INFO] Start to zip files
+[07/04/2014 23:53:30] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 23:53:30] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 23:53:30] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 23:53:30] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 23:53:30] | [INFO] Start to zip files
+[07/04/2014 23:53:30] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 23:53:30] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 23:53:30] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 23:53:30] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:53:30] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:53:30] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:53:30] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:53:30] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:53:30] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:53:30] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:53:30] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:53:30] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:53:30] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:53:30] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 23:53:30] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:53:30] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:53:30] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 23:53:30] | [INFO] Start to zip files
+[07/04/2014 23:53:30] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 23:53:30] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:53:30] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:53:30] | [INFO] Removing temporary files
+[07/04/2014 23:53:30] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:53:30] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 23:53:30] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 23:53:30] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:53:30] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 23:53:30] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 23:53:30] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:53:30] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:53:30] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:53:30] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:53:30] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 23:53:30] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:53:30] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:53:30] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 23:53:30] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 23:53:30] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 23:53:30] | *** LOGGER CLOSED ***
+[07/04/2014 23:53:46] | *** LOGGER STARTED ***
+[07/04/2014 23:53:46] | [INFO] Configurations loaded
+[07/04/2014 23:53:46] | [INFO] Operating System is: windows 7
+[07/04/2014 23:53:46] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:53:46] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:53:46] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:53:51] | [INFO] Start to zip files
+[07/04/2014 23:53:51] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:53:51] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:53:51] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:53:51] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:53:51] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:53:52] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:53:52] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:53:52] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:53:52] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:53:52] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:53:52] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:53:52] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:53:52] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:53:52] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:53:52] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:53:52] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:53:52] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:53:52] | [INFO] Start to zip files
+[07/04/2014 23:53:52] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[07/04/2014 23:53:52] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:53:52] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:53:52] | [INFO] Removing temporary files
+[07/04/2014 23:53:52] | [INFO] Saving the current configuration...
+[07/04/2014 23:53:52] | [INFO] Current configurations saved
+[07/04/2014 23:53:52] | *** LOGGER CLOSED ***
+[07/04/2014 23:54:00] | *** LOGGER STARTED ***
+[07/04/2014 23:54:00] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command is not correct
+[07/04/2014 23:54:00] | [INFO] Executing command 'notExist'
+[07/04/2014 23:54:00] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'notExist' can not be executed
+[07/04/2014 23:54:00] | [INFO] Executing command 'dir'
+[07/04/2014 23:54:00] | [ERROR] fr.nemolovich.apps.securefolder.batch.BatchCommand{execute}: The command 'dir' can not be executed
+[07/04/2014 23:54:00] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The file 'C:\Users\Nemolovich\Desktop\SecureFolder\uselessFileNonExisting' does not exists
+[07/04/2014 23:54:00] | [ERROR] fr.nemolovich.apps.securefolder.file.FileUtils{verify}: The path 'C:\Users\Nemolovich\Desktop\SecureFolderNonExisting' does not exists
+[07/04/2014 23:54:00] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 23:54:00] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 23:54:00] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 23:54:00] | [INFO] Configurations loaded
+[07/04/2014 23:54:00] | [INFO] Operating System is: windows 7
+[07/04/2014 23:54:00] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:54:00] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:54:00] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:54:00] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 23:54:00] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:54:00] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:54:00] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .uselessFile]
+[07/04/2014 23:54:00] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile
+[07/04/2014 23:54:00] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 23:54:00] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile'
+[07/04/2014 23:54:00] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.uselessFile' returned: 
+[07/04/2014 23:54:00] | [INFO] Creating batch file command: unHideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 23:54:00] | [INFO] Looking for command key: file.unHideFile
+[07/04/2014 23:54:00] | [INFO] Command found: attrib -s -h %1%%2%
+[07/04/2014 23:54:00] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, uselessFile]
+[07/04/2014 23:54:00] | [INFO] Final Command: attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile
+[07/04/2014 23:54:00] | [INFO] Executing command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 23:54:00] | [INFO] Waiting for result for command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'
+[07/04/2014 23:54:00] | [INFO] Command 'attrib -s -h C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile' returned: 
+[07/04/2014 23:54:00] | [INFO] Start to zip files
+[07/04/2014 23:54:00] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile'] is not a directory
+[07/04/2014 23:54:00] | [INFO] Adding files in zip [uselessFile]
+[07/04/2014 23:54:00] | [INFO] Adding file: ['uselessFile']
+[07/04/2014 23:54:01] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The source file to zip does not exist
+[07/04/2014 23:54:01] | [INFO] Start to zip files
+[07/04/2014 23:54:01] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test']
+[07/04/2014 23:54:01] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest']
+[07/04/2014 23:54:01] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolder\Test\folderTest\subFolderTest']
+[07/04/2014 23:54:01] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:54:01] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:54:01] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:54:01] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:54:01] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:54:01] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:54:01] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:54:01] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:54:01] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:54:01] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:54:01] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 23:54:01] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:54:01] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:54:01] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 23:54:01] | [INFO] Start to zip files
+[07/04/2014 23:54:01] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'] is not a directory
+[07/04/2014 23:54:01] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:54:01] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:54:01] | [INFO] Removing temporary files
+[07/04/2014 23:54:01] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:54:01] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']...
+[07/04/2014 23:54:01] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\uselessFile.zip']
+[07/04/2014 23:54:01] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:54:01] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']...
+[07/04/2014 23:54:01] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\Test.sflock']
+[07/04/2014 23:54:01] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:54:01] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:54:01] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:54:01] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolder\, .Test.encrypted]
+[07/04/2014 23:54:01] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted
+[07/04/2014 23:54:01] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:54:01] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted'
+[07/04/2014 23:54:01] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted' returned: 
+[07/04/2014 23:54:01] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']...
+[07/04/2014 23:54:01] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolder\.Test.encrypted']
+[07/04/2014 23:54:01] | *** LOGGER CLOSED ***
+[07/04/2014 23:54:05] | *** LOGGER STARTED ***
+[07/04/2014 23:54:05] | [INFO] Configurations loaded
+[07/04/2014 23:54:05] | [INFO] Operating System is: windows 7
+[07/04/2014 23:54:05] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:54:05] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:54:05] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:54:07] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:54:07] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[07/04/2014 23:54:07] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[07/04/2014 23:54:07] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:54:07] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:54:07] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:54:07] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:54:07] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:54:07] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:54:07] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:54:07] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:54:07] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']...
+[07/04/2014 23:54:07] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']
+[07/04/2014 23:54:07] | [INFO] Saving the current configuration...
+[07/04/2014 23:54:07] | [INFO] Current configurations saved
+[07/04/2014 23:54:07] | *** LOGGER CLOSED ***
+[07/04/2014 23:54:12] | *** LOGGER STARTED ***
+[07/04/2014 23:54:12] | [INFO] Configurations loaded
+[07/04/2014 23:54:12] | [INFO] Operating System is: windows 7
+[07/04/2014 23:54:12] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:54:12] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:54:12] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:54:14] | [INFO] Start to zip files
+[07/04/2014 23:54:14] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:54:14] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:54:14] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:54:14] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:54:14] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:54:14] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:54:14] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:54:14] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:54:14] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:54:14] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:54:14] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:54:14] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:54:14] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:54:14] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:54:14] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:54:14] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:54:14] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:54:14] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The destination file already exists
+[07/04/2014 23:54:14] | [INFO] Removing temporary files
+[07/04/2014 23:54:15] | [INFO] Saving the current configuration...
+[07/04/2014 23:54:15] | [INFO] Current configurations saved
+[07/04/2014 23:54:15] | *** LOGGER CLOSED ***
+[07/04/2014 23:55:41] | *** LOGGER STARTED ***
+[07/04/2014 23:55:41] | [INFO] Configurations loaded
+[07/04/2014 23:55:41] | [INFO] Operating System is: windows 7
+[07/04/2014 23:55:41] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:55:41] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:55:41] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:55:43] | [INFO] Start to zip files
+[07/04/2014 23:55:43] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:55:43] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:55:43] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:55:43] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:55:43] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:55:43] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:55:43] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:55:43] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:55:43] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:55:43] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:55:43] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:55:43] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:55:43] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:55:43] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:55:43] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:55:43] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:55:43] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:55:43] | [INFO] Start to zip files
+[07/04/2014 23:55:43] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[07/04/2014 23:55:43] | [INFO] Adding files in zip [.Test.encrypted]
+[07/04/2014 23:55:43] | [INFO] Adding file: ['.Test.encrypted']
+[07/04/2014 23:55:43] | [INFO] Removing temporary files
+[07/04/2014 23:55:50] | [INFO] Saving the current configuration...
+[07/04/2014 23:55:50] | [INFO] Current configurations saved
+[07/04/2014 23:55:50] | *** LOGGER CLOSED ***
+[07/04/2014 23:57:31] | *** LOGGER STARTED ***
+[07/04/2014 23:57:31] | [INFO] Configurations loaded
+[07/04/2014 23:57:31] | [INFO] Operating System is: windows 7
+[07/04/2014 23:57:31] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:57:31] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:57:31] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:57:34] | [INFO] Start to zip files
+[07/04/2014 23:57:34] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[07/04/2014 23:57:34] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[07/04/2014 23:57:34] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[07/04/2014 23:57:34] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[07/04/2014 23:57:34] | [INFO] Adding file: ['fileTest']
+[07/04/2014 23:57:34] | [INFO] Adding file: ['subFileTest']
+[07/04/2014 23:57:34] | [INFO] Adding file: ['subSubFileTest']
+[07/04/2014 23:57:34] | [INFO] Adding file: ['subFolderTest']
+[07/04/2014 23:57:34] | [INFO] Adding file: ['folderTest']
+[07/04/2014 23:57:34] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:57:34] | [INFO] Looking for command key: file.hideFile
+[07/04/2014 23:57:34] | [INFO] Command found: attrib +s +h %1%%2%
+[07/04/2014 23:57:34] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[07/04/2014 23:57:34] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[07/04/2014 23:57:34] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:57:34] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[07/04/2014 23:57:34] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[07/04/2014 23:57:34] | [ERROR] fr.nemolovich.apps.securefolder.zip.ZipUtils{zipFile}: The destination file already exists
+[07/04/2014 23:57:34] | [INFO] Removing temporary files
+[07/04/2014 23:57:44] | *** LOGGER STARTED ***
+[07/04/2014 23:57:44] | [INFO] Configurations loaded
+[07/04/2014 23:57:44] | [INFO] Operating System is: windows 7
+[07/04/2014 23:57:44] | [INFO] Loading config file: ['batchs\batchs.ini']
+[07/04/2014 23:57:44] | [INFO] Properties file to use: ['win.properties']
+[07/04/2014 23:57:44] | [INFO] Properties file ['win.properties'] loaded
+[07/04/2014 23:57:46] | [INFO] Configuring password for encrypted zipped file
+[07/04/2014 23:57:46] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[07/04/2014 23:57:46] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[07/04/2014 23:57:46] | [INFO] Saving the current configuration...
+[07/04/2014 23:57:46] | [INFO] Current configurations saved
+[07/04/2014 23:57:46] | *** LOGGER CLOSED ***
+[08/04/2014 00:01:39] | *** LOGGER STARTED ***
+[08/04/2014 00:01:39] | [INFO] Configurations loaded
+[08/04/2014 00:01:39] | [INFO] Operating System is: windows 7
+[08/04/2014 00:01:39] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:01:39] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:01:39] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:01:41] | [INFO] Configuring password for encrypted zipped file
+[08/04/2014 00:01:41] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[08/04/2014 00:01:41] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[08/04/2014 00:01:41] | [INFO] Saving the current configuration...
+[08/04/2014 00:01:41] | [INFO] Current configurations saved
+[08/04/2014 00:01:41] | *** LOGGER CLOSED ***
+[08/04/2014 00:02:03] | *** LOGGER STARTED ***
+[08/04/2014 00:02:03] | [INFO] Configurations loaded
+[08/04/2014 00:02:03] | [INFO] Operating System is: windows 7
+[08/04/2014 00:02:03] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:02:03] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:02:03] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:02:05] | [INFO] Configuring password for encrypted zipped file
+[08/04/2014 00:02:05] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[08/04/2014 00:02:06] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[08/04/2014 00:02:10] | [INFO] Saving the current configuration...
+[08/04/2014 00:02:10] | [INFO] Current configurations saved
+[08/04/2014 00:02:10] | *** LOGGER CLOSED ***
+[08/04/2014 00:02:16] | *** LOGGER STARTED ***
+[08/04/2014 00:02:16] | [INFO] Configurations loaded
+[08/04/2014 00:02:16] | [INFO] Operating System is: windows 7
+[08/04/2014 00:02:16] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:02:16] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:02:16] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:02:18] | [INFO] Configuring password for encrypted zipped file
+[08/04/2014 00:02:18] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[08/04/2014 00:02:18] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[08/04/2014 00:02:20] | [INFO] Saving the current configuration...
+[08/04/2014 00:02:20] | [INFO] Current configurations saved
+[08/04/2014 00:02:20] | *** LOGGER CLOSED ***
+[08/04/2014 00:02:23] | *** LOGGER STARTED ***
+[08/04/2014 00:02:23] | [INFO] Configurations loaded
+[08/04/2014 00:02:23] | [INFO] Operating System is: windows 7
+[08/04/2014 00:02:23] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:02:23] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:02:23] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:02:25] | [INFO] Configuring password for encrypted zipped file
+[08/04/2014 00:02:25] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[08/04/2014 00:02:25] | [ERROR] fr.nemolovich.apps.securefolder.command.option.UnzipOption{execute}: Error while unsecuring folder ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[08/04/2014 00:02:25] | [INFO] Saving the current configuration...
+[08/04/2014 00:02:25] | [INFO] Current configurations saved
+[08/04/2014 00:02:25] | *** LOGGER CLOSED ***
+[08/04/2014 00:02:27] | *** LOGGER STARTED ***
+[08/04/2014 00:02:27] | [INFO] Configurations loaded
+[08/04/2014 00:02:27] | [INFO] Operating System is: windows 7
+[08/04/2014 00:02:27] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:02:27] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:02:27] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:02:29] | [INFO] Configuring password for encrypted zipped file
+[08/04/2014 00:02:29] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[08/04/2014 00:02:29] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[08/04/2014 00:02:29] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[08/04/2014 00:02:29] | [INFO] Looking for command key: file.hideFile
+[08/04/2014 00:02:29] | [INFO] Command found: attrib +s +h %1%%2%
+[08/04/2014 00:02:29] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[08/04/2014 00:02:29] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[08/04/2014 00:02:29] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[08/04/2014 00:02:29] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[08/04/2014 00:02:29] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[08/04/2014 00:02:29] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']...
+[08/04/2014 00:02:29] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']
+[08/04/2014 00:02:29] | [INFO] Saving the current configuration...
+[08/04/2014 00:02:29] | [INFO] Current configurations saved
+[08/04/2014 00:02:29] | *** LOGGER CLOSED ***
+[08/04/2014 00:02:47] | *** LOGGER STARTED ***
+[08/04/2014 00:02:47] | [INFO] Configurations loaded
+[08/04/2014 00:02:47] | [INFO] Operating System is: windows 7
+[08/04/2014 00:02:47] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:02:47] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:02:47] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:02:49] | [INFO] Start to zip files
+[08/04/2014 00:02:49] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test']
+[08/04/2014 00:02:49] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest']
+[08/04/2014 00:02:49] | [INFO] Getting path content: ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test\folderTest\subFolderTest']
+[08/04/2014 00:02:49] | [INFO] Adding files in zip [Test\fileTest, Test\folderTest\subFileTest, Test\folderTest\subFolderTest\subSubFileTest, Test\folderTest\subFolderTest, Test\folderTest]
+[08/04/2014 00:02:49] | [INFO] Adding file: ['fileTest']
+[08/04/2014 00:02:49] | [INFO] Adding file: ['subFileTest']
+[08/04/2014 00:02:49] | [INFO] Adding file: ['subSubFileTest']
+[08/04/2014 00:02:49] | [INFO] Adding file: ['subFolderTest']
+[08/04/2014 00:02:49] | [INFO] Adding file: ['folderTest']
+[08/04/2014 00:02:49] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[08/04/2014 00:02:49] | [INFO] Looking for command key: file.hideFile
+[08/04/2014 00:02:49] | [INFO] Command found: attrib +s +h %1%%2%
+[08/04/2014 00:02:49] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[08/04/2014 00:02:49] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[08/04/2014 00:02:49] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[08/04/2014 00:02:49] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[08/04/2014 00:02:49] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[08/04/2014 00:02:49] | [INFO] Start to zip files
+[08/04/2014 00:02:49] | [WARNING] Path ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'] is not a directory
+[08/04/2014 00:02:49] | [INFO] Adding files in zip [.Test.encrypted]
+[08/04/2014 00:02:49] | [INFO] Adding file: ['.Test.encrypted']
+[08/04/2014 00:02:49] | [INFO] Removing temporary files
+[08/04/2014 00:02:51] | [INFO] Saving the current configuration...
+[08/04/2014 00:02:51] | [INFO] Current configurations saved
+[08/04/2014 00:02:51] | *** LOGGER CLOSED ***
+[08/04/2014 00:03:08] | *** LOGGER STARTED ***
+[08/04/2014 00:03:08] | [INFO] Configurations loaded
+[08/04/2014 00:03:08] | [INFO] Operating System is: windows 7
+[08/04/2014 00:03:08] | [INFO] Loading config file: ['batchs\batchs.ini']
+[08/04/2014 00:03:08] | [INFO] Properties file to use: ['win.properties']
+[08/04/2014 00:03:08] | [INFO] Properties file ['win.properties'] loaded
+[08/04/2014 00:03:10] | [INFO] Configuring password for encrypted zipped file
+[08/04/2014 00:03:10] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']...
+[08/04/2014 00:03:11] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\Test.sflock']
+[08/04/2014 00:03:11] | [INFO] Creating batch file command: hideFile with parameters [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[08/04/2014 00:03:11] | [INFO] Looking for command key: file.hideFile
+[08/04/2014 00:03:11] | [INFO] Command found: attrib +s +h %1%%2%
+[08/04/2014 00:03:11] | [INFO] Applying parameters: [C:\Users\Nemolovich\Desktop\SecureFolderBack\, .Test.encrypted]
+[08/04/2014 00:03:11] | [INFO] Final Command: attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted
+[08/04/2014 00:03:11] | [INFO] Executing command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[08/04/2014 00:03:11] | [INFO] Waiting for result for command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted'
+[08/04/2014 00:03:11] | [INFO] Command 'attrib +s +h C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted' returned: 
+[08/04/2014 00:03:11] | [INFO] Extracting files from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']...
+[08/04/2014 00:03:11] | [INFO] Files extracted from ['C:\Users\Nemolovich\Desktop\SecureFolderBack\.Test.encrypted']
+[08/04/2014 00:03:12] | [INFO] Saving the current configuration...
+[08/04/2014 00:03:12] | [INFO] Current configurations saved
+[08/04/2014 00:03:12] | *** LOGGER CLOSED ***

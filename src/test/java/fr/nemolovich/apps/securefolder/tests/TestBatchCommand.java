@@ -1,7 +1,7 @@
 package fr.nemolovich.apps.securefolder.tests;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
 
 import java.io.IOException;
 
@@ -27,11 +27,11 @@ public class TestBatchCommand {
 		assertEquals(null, res);
 	}
 	
-	@Test(timeout=10000)
+	@Test(timeout=100000)
 	public void customizedCommand() {
 		BatchCommand command=new BatchCommand(MainTestSuite.CUSTOMIZED_COMMAND);
 		String res=command.execute();
-		assertFalse(res==null);
+		assertNull(res);
 	}
 
 	@BeforeClass

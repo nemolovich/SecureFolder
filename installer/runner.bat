@@ -7,7 +7,7 @@
 @REM   JAVA_HOME - location of a JDK home dir
 
 @echo off
-call config.bat
+call "%~dp0\config.bat"
 
 set ERROR_CODE=0
 
@@ -52,7 +52,7 @@ goto run
 :cleanApplicationHome
 if %APPLICATION_HOME:~-1%==\ set APPLICATION_HOME=%APPLICATION_HOME:~0,-1%
 
-IF EXIST "%APPLICATION_HOME%\lib\%PRODUCT_NAME%-%PRODUCT_VERSION%-jar-with-dependencies.jar" goto run
+IF EXIST "%APPLICATION_HOME%\lib\%PRODUCT_NAME%-%PRODUCT_VERSION%.jar" goto run
 
 echo.
 echo ERROR: APPLICATION_HOME exists but does not point to a valid install
@@ -64,11 +64,13 @@ goto error
 
 @REM ==== START RUN ====
 :run
-echo %APPLICATION_HOME%
 
 set PROJECT_HOME=%CD%
 
-%JAVA_EXEC% -cp "%APPLICATION_HOME%\lib\%PRODUCT_NAME%-%PRODUCT_VERSION%-jar-with-dependencies.jar" fr.nemolovich.apps.%PRODUCT_PACKAGE%.%PRODUCT_NAME% "%*"
+REM echo Please enter password:
+REM set /p password=
+
+%JAVA_EXEC% -jar "%APPLICATION_HOME%\lib\%PRODUCT_NAME%-%PRODUCT_VERSION%.jar" %*
 if ERRORLEVEL 1 goto error
 goto end
 

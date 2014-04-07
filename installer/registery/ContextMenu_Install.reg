@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\nemolovich.apps.SecureFolder]
+@="SecureFolder Archive"
+
+[HKEY_CLASSES_ROOT\nemolovich.apps.SecureFolder\DefaultIcon]
+@="C:\\Program Files\\NemolovichApps\\SecureFolder\\icons\\lock.ico"
+
+[HKEY_CLASSES_ROOT\nemolovich.apps.SecureFolder\shell\open]
+@="Unlock file"
+"Icon"="C:\\Program Files\\NemolovichApps\\SecureFolder\\icons\\unlock.ico"
+
+[HKEY_CLASSES_ROOT\nemolovich.apps.SecureFolder\shell\open\command]
+@="cmd.exe /c start \"SecureFolder\" \"%%ProgramFiles%%/NemolovichApps/SecureFolder/bin/runner.bat\" -u %1"
+
+[HKEY_CURRENT_USER\Software\Classes\.sflock\shell\LockFile]
+@="Unlock file"
+"Icon"="C:\\Windows\\system32\\SHELL32.dll,4"
+;"Icon"="C:\\Program Files\\NemolovichApps\\SecureFolder\\icons\\lock.ico"
+
+[HKEY_CLASSES_ROOT\.sflock]
+@="nemolovich.apps.SecureFolder"
+
+[HKEY_CLASSES_ROOT\.sflock\DefaultIcon]
+@="C:\\Windows\\system32\\SHELL32.dll,4"
+
+[HKEY_CURRENT_USER\Software\Classes\.sfunlock\shell\UnlockFile]
+@="Lock file"
+"Icon"="C:\\Program Files\\NemolovichApps\\SecureFolder\\icons\\lock.ico"
+
+[HKEY_CLASSES_ROOT\.sfunlock]
+@="nemolovich.apps.SecureFolder"
+
+[HKEY_CLASSES_ROOT\.sfunlock\DefaultIcon]
+@="C:\\Windows\\system32\\SHELL32.dll,4"
+
+[HKEY_CLASSES_ROOT\Directory\shell\SecureFodler]
+@="Secure folder"
+"Icon"="C:\\Program Files\\NemolovichApps\\SecureFolder\\icons\\lock.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\SecureFodler\command]
+@="cmd.exe /c start \"SecureFolder\" \"%%ProgramFiles%%/NemolovichApps/SecureFolder/bin/runner.bat\" -z %1"
+
+[HKEY_CLASSES_ROOT\Folder\shell\SecureFodler]
+@="Secure folder"
+"Icon"="C:\\Program Files\\NemolovichApps\\SecureFolder\\icons\\lock.ico"
+
+[HKEY_CLASSES_ROOT\Folder\shell\SecureFodler\command]
+@="cmd.exe /c start \"SecureFolder\" \"%%ProgramFiles%%/NemolovichApps/SecureFolder/bin/runner.bat\" -z %1"

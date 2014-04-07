@@ -6,6 +6,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import net.lingala.zip4j.core.ZipFile;
 import net.lingala.zip4j.exception.ZipException;
@@ -14,6 +16,7 @@ import net.lingala.zip4j.model.ZipParameters;
 import net.lingala.zip4j.util.InternalZipConstants;
 import net.lingala.zip4j.util.Zip4jConstants;
 import fr.nemolovich.apps.securefolder.SecureFolder;
+import fr.nemolovich.apps.securefolder.batch.exception.BatchException;
 import fr.nemolovich.apps.securefolder.file.FileUtils;
 import fr.nemolovich.apps.securefolder.logger.ClassLogger;
 import fr.nemolovich.apps.securefolder.logger.ILogger;
@@ -29,6 +32,21 @@ public class ZipUtils {
 			SecureFolder.logger);
 
 	public static final String ENCRYPTED_EXTENSION = "encrypted";
+	public static Map<Integer, String> descriptions;
+
+	public static void initConstants() {
+		Map<Integer, String> descriptions = new ConcurrentHashMap<Integer, String>();
+		descriptions.put(IZipConstants.SUCCESS_STATUS,
+				IZipConstants.SUCCESS_STATUS_DESC);
+		descriptions.put(IZipConstants.WRONG_FILE_STATUS,
+				IZipConstants.WRONG_FILE_STATUS_DESC);
+		descriptions.put(IZipConstants.WRONG_PATH_STATUS,
+				IZipConstants.WRONG_PATH_STATUS_DESC);
+		descriptions.put(IZipConstants.WRONG_PASSWORD_STATUS,
+				IZipConstants.WRONG_PASSWORD_STATUS_DESC);
+		descriptions.put(IZipConstants.ERROR_STATUS,
+				IZipConstants.ERROR_STATUS_DESC);
+	}
 
 	/**
 	 * Secure a folder with a password
@@ -37,17 +55,16 @@ public class ZipUtils {
 	 *            {@link File} - The folder to secure
 	 * @param password
 	 *            {@link String} - The password
-	 * @return {@link Boolean boolean} - <code>true</code> if the folder has
-	 *         been secured zipped, <code>false</code> otherwise
 	 * @throws FileNotFoundException
 	 * @throws ZipException
+	 * @throws BatchException
 	 */
-	public static boolean secureFolder(File source, String password)
-			throws FileNotFoundException, ZipException {
+	public static int secureFolder(File source, String password)
+			throws FileNotFoundException, ZipException, BatchException {
 		logger.setMethodName("secureFodler");
 		if (source.exists() && !source.isDirectory()) {
 			logger.error("The source path is not a directory");
-			return false;
+			return IZipConstants.WRONG_PATH_STATUS;
 		}
 		File encrypted = new File(source.getAbsolutePath().concat(".")
 				.concat(ENCRYPTED_EXTENSION));
@@ -55,13 +72,13 @@ public class ZipUtils {
 		if (!created || !encrypted.exists()) {
 			logger.error("Can not secure the folder ['"
 					+ source.getAbsolutePath() + "']");
-			return false;
+			return IZipConstants.WRONG_PATH_STATUS;
 		}
 		FileUtils.hideFile(encrypted.getParent(), encrypted.getName());
 		if (encrypted.exists()) {
 			logger.error("Error while removing temporary file ['"
 					+ encrypted.getAbsolutePath() + "']");
-			return false;
+			return IZipConstants.ERROR_STATUS;
 		}
 		encrypted = new File(source.getParent().concat(
 				File.separator.concat(".").concat(
@@ -70,7 +87,7 @@ public class ZipUtils {
 		if (!encrypted.exists()) {
 			logger.error("Temporary file ['" + encrypted.getAbsolutePath()
 					+ "'] not found");
-			return false;
+			return IZipConstants.ERROR_STATUS;
 		}
 		File sflockFile = new File(source.getAbsolutePath().concat(".")
 				.concat(SecureFolder.EXTENSION_LOCK));
@@ -101,16 +118,19 @@ public class ZipUtils {
 
 		removed = FileUtils.removeFolder(source);
 
-		return removed && created && sflockFile.exists();
+		if (removed && created && sflockFile.exists()) {
+			return IZipConstants.SUCCESS_STATUS;
+		}
+		return IZipConstants.ERROR_STATUS;
 	}
 
-	public static boolean unsecureFolder(File sflockFile, String password)
-			throws ZipException {
+	public static int unsecureFolder(File sflockFile, String password)
+			throws ZipException, BatchException {
 		logger.setMethodName("unsecureFodler");
 		if (!sflockFile.exists() || !sflockFile.isFile()) {
 			logger.error("File ['" + sflockFile.getAbsolutePath()
 					+ "'] is not a valid file");
-			return false;
+			return IZipConstants.WRONG_FILE_STATUS;
 		}
 		File destination = new File(sflockFile.getParent());
 		String cryptedPass = password;
@@ -125,7 +145,7 @@ public class ZipUtils {
 		}
 		boolean unzipped = unzipFile(sflockFile, destination, cryptedPass);
 		if (!unzipped) {
-			return false;
+			return IZipConstants.WRONG_PASSWORD_STATUS;
 		}
 		File tempFile = new File(
 				sflockFile
@@ -148,7 +168,10 @@ public class ZipUtils {
 		if (unzipped) {
 			unzipped = tempFile.delete();
 		}
-		return unzipped;
+		if (unzipped) {
+			return IZipConstants.SUCCESS_STATUS;
+		}
+		return IZipConstants.ERROR_STATUS;
 	}
 
 	public static boolean secureBackFolder(File sflockFile) {

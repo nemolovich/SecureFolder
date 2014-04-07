@@ -19,7 +19,7 @@ public class MainTestSuite {
 	 */
 	public static final String FILE_PATH_LINUX = "/home/nemo/Documents/Tests";
 	public static final String CUSTOMIZED_COMMAND_LINUX = "ls -la";
-	public static String FILE_PATH_WINDOWS = "C:\\Users\\COMPUMONSTER\\Desktop\\SecureFolder";
+	public static String FILE_PATH_WINDOWS = "C:\\Users\\Nemolovich\\Desktop\\SecureFolder";
 	public static String CUSTOMIZED_COMMAND_WINDOWS = "dir";
 	public static String FILE_PATH = FILE_PATH_WINDOWS;
 	public static String CUSTOMIZED_COMMAND = CUSTOMIZED_COMMAND_WINDOWS;

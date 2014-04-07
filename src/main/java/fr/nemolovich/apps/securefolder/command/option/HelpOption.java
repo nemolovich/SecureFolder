@@ -15,8 +15,11 @@ public class HelpOption extends CommandOption {
 					+ this.commandChar + ":\t\t" + "Display commands list\n"
 					+ "\t--" + this.commandName + ",-" + this.commandChar
 					+ " <command>:\t" + "Display specific command help");
+			return true;
+		} else {
+			this.parameters.clear();
+			return this.execute();
 		}
-		return false;
 	}
 
 }

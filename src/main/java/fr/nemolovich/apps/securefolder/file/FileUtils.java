@@ -9,6 +9,7 @@ import java.util.List;
 import fr.nemolovich.apps.securefolder.SecureFolder;
 import fr.nemolovich.apps.securefolder.batch.BatchCommand;
 import fr.nemolovich.apps.securefolder.batch.BatchUtils;
+import fr.nemolovich.apps.securefolder.batch.exception.BatchException;
 import fr.nemolovich.apps.securefolder.logger.ClassLogger;
 import fr.nemolovich.apps.securefolder.logger.ILogger;
 
@@ -123,9 +124,11 @@ public class FileUtils {
 	 *            {@link String} - The file command
 	 * @param parameters
 	 *            {@link String}[] The list of arguments
+	 * @throws BatchException
+	 *             If the batch instance can not be got
 	 */
 	private static void executeBatchCommand(String fileCommand,
-			String... parameters) {
+			String... parameters) throws BatchException {
 		logger.setMethodName("executeBatchCommand");
 		BatchUtils batch = BatchUtils.getInstance();
 		String commandKey = "file." + fileCommand;
@@ -145,20 +148,24 @@ public class FileUtils {
 	 *            {@link String} - File name
 	 * @return {@link Boolean boolean} - <code>true</code> if the file has been
 	 *         hide, <code>false</code> otherwise
+	 * @throws BatchException
+	 *             If the batch command failed
 	 */
-	public static boolean hideFile(String path, String fileName) {
+	public static boolean hideFile(String path, String fileName)
+			throws BatchException {
 		logger.setMethodName("hideFile");
 		if (!verify(path, fileName)) {
 			return false;
 		}
 		File file = new File(path + File.separator, fileName);
 		File newFile = new File(path + File.separator, ".".concat(fileName));
-		if(file.getName().startsWith(".")) {
-			newFile=file;
+		if (file.getName().startsWith(".")) {
+			newFile = file;
 		} else {
 			file.renameTo(newFile);
 		}
-		executeBatchCommand("hideFile", path + File.separator, newFile.getName());
+		executeBatchCommand("hideFile", path + File.separator,
+				newFile.getName());
 		return newFile.exists() && newFile.isHidden();
 	}
 
@@ -171,8 +178,11 @@ public class FileUtils {
 	 *            {@link String} - File name
 	 * @return {@link Boolean boolean} - <code>true</code> if the file has been
 	 *         unhide, <code>false</code> otherwise
+	 * @throws BatchException
+	 *             If the batch command failed
 	 */
-	public static boolean unHideFile(String path, String fileName) {
+	public static boolean unHideFile(String path, String fileName)
+			throws BatchException {
 		logger.setMethodName("unHideFile");
 		if (!verify(path, "." + fileName)) {
 			return false;
@@ -192,17 +202,17 @@ public class FileUtils {
 			return false;
 		}
 		if (destination.exists()) {
-			logger.error("The destination folder ['" + destination.getAbsolutePath()
-					+ "'] already exists");
+			logger.error("The destination folder ['"
+					+ destination.getAbsolutePath() + "'] already exists");
 			return false;
 		}
 		destination.mkdir();
 		for (File f : source.listFiles()) {
-			File dest=new File(destination.getAbsolutePath()
+			File dest = new File(destination.getAbsolutePath()
 					.concat(File.separator).concat(f.getName()));
 			if (f.isFile()) {
 				f.renameTo(dest);
-			} else if(f.isDirectory()) {
+			} else if (f.isDirectory()) {
 				renameFolder(f, dest);
 			}
 		}
@@ -212,18 +222,18 @@ public class FileUtils {
 	public static boolean removeFolder(File source) {
 		logger.setMethodName("removeFolder");
 		if (!source.exists()) {
-			logger.write("The source folder ['" + source.getAbsolutePath()
-					+ "'] does not exist",ILogger.SEVERITY_INFO);
+			logger.error("The source folder ['" + source.getAbsolutePath()
+					+ "'] does not exist");
 			return false;
 		}
-		boolean deleted=false;
+		boolean deleted = false;
 		for (File f : source.listFiles()) {
 			if (f.isFile()) {
-				deleted=f.delete();
-			} else if(f.isDirectory()) {
-				deleted=removeFolder(f);
+				deleted = f.delete();
+			} else if (f.isDirectory()) {
+				deleted = removeFolder(f);
 			}
-			if(!deleted) {
+			if (!deleted) {
 				break;
 			}
 		}

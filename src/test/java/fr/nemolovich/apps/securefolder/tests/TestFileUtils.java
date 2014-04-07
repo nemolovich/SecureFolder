@@ -16,39 +16,41 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import fr.nemolovich.apps.securefolder.batch.exception.BatchException;
 import fr.nemolovich.apps.securefolder.file.FileUtils;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TestFileUtils {
 
 	@Test
-	public void aNonExistingPath() {
+	public void aNonExistingPath() throws BatchException {
 		assertFalse(FileUtils.hideFile(MainTestSuite.FILE_PATH + "NonExisting",
 				MainTestSuite.FILE_NAME));
 	}
 
 	@Test
-	public void aNonExistingFile() {
+	public void aNonExistingFile() throws BatchException {
 		assertFalse(FileUtils.hideFile(MainTestSuite.FILE_PATH,
 				MainTestSuite.FILE_NAME + "NonExisting"));
 	}
 
 	@Test
-	public void hideExistingFile() {
+	public void hideExistingFile() throws BatchException {
 		assertTrue(FileUtils.hideFile(MainTestSuite.FILE_PATH,
 				MainTestSuite.FILE_NAME));
 	}
 
 	@Test
-	public void unHideExistingFile() {
+	public void unHideExistingFile() throws BatchException {
 		assertTrue(FileUtils.unHideFile(MainTestSuite.FILE_PATH,
 				MainTestSuite.FILE_NAME));
 	}
 
 	@Test
 	public void getExistingContent() throws FileNotFoundException {
-		List<String> list=FileUtils.getFolderContent(new File(MainTestSuite.FILE_PATH
-				+ File.separator + MainTestSuite.FOLDER_NAME));
+		List<String> list = FileUtils.getFolderContent(new File(
+				MainTestSuite.FILE_PATH + File.separator
+						+ MainTestSuite.FOLDER_NAME));
 		assertNotNull(list);
 	}
 
@@ -56,7 +58,8 @@ public class TestFileUtils {
 	public static void init() throws IOException {
 		System.out
 				.println("[INFO] ------------------------------------------------------------------------");
-		System.out.println("[INFO] Tests for: "+TestFileUtils.class.getName());
+		System.out
+				.println("[INFO] Tests for: " + TestFileUtils.class.getName());
 		System.out
 				.println("[INFO] ------------------------------------------------------------------------");
 	}
